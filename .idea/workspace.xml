@@ -2,22 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7c5d190-bc7a-4420-aa9b-c5c1390c0433" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/2016/11/11/devfest-toulouse-2016---kotlin-for-android/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/2016/11/11/devfest-toulouse-2016---retour-global/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/blog/devFest2016-IntroRetrospective.md" afterPath="$PROJECT_DIR$/content/blog/devFest2016-IntroRetrospective.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/blog/devFest2016-KotlinForAndroid.md" afterPath="$PROJECT_DIR$/content/blog/devFest2016-KotlinForAndroid.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/2016/11/10/blog-init--push/index.html" afterPath="$PROJECT_DIR$/public/2016/11/10/blog-init--push/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/404.html" afterPath="$PROJECT_DIR$/public/404.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/about/index.html" afterPath="$PROJECT_DIR$/public/about/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/index.html" afterPath="$PROJECT_DIR$/public/blog/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/blog/index.xml" afterPath="$PROJECT_DIR$/public/blog/index.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/categories/divers/index.html" afterPath="$PROJECT_DIR$/public/categories/divers/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/categories/divers/index.xml" afterPath="$PROJECT_DIR$/public/categories/divers/index.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/categories/index.html" afterPath="$PROJECT_DIR$/public/categories/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.html" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/index.xml" afterPath="$PROJECT_DIR$/public/index.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/sitemap.xml" afterPath="$PROJECT_DIR$/public/sitemap.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/hugo-future-imperfect/layouts/post/content-single.html" afterPath="$PROJECT_DIR$/themes/hugo-future-imperfect/layouts/post/content-single.html" />
     </list>
     <ignored path="gloseDeDev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/themes/hugo-future-imperfect/layouts/post/content-single.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="25" selection-end-column="9" />
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -821,7 +806,7 @@
       <updated>1478260708063</updated>
       <workItem from="1478260709824" duration="105000" />
       <workItem from="1478260843178" duration="5283000" />
-      <workItem from="1478857206342" duration="13908000" />
+      <workItem from="1478857206342" duration="13984000" />
     </task>
     <task id="LOCAL-00001" summary="SSL usage">
       <created>1478877194025</created>
@@ -834,7 +819,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19296000" />
+    <option name="totallyTimeSpent" value="19372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="21" width="1318" height="747" extended-state="6" />
@@ -1322,7 +1307,7 @@
     <entry file="file://$PROJECT_DIR$/themes/hugo-future-imperfect/layouts/post/content-single.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="25" selection-end-column="9" />
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>
