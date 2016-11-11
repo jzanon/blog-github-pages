@@ -17,7 +17,7 @@ Après des mois de tergiversations, je l'ai fait:
 j'écris ce premier billet tout en préparant un retour sur le premier évènement de grande ampleur 
 adressé aux développeurs sur le bassin toulousain: le DevFest Toulouse.
 
-Par ailleurs il va falloir s'attendre à du troll, des anglicismes, des pointeurs vers d'autres blogs que je trouve intéressant,
+Par ailleurs il va falloir s'attendre à du troll, des anglicismes, des pointeurs vers d'autres blogs que je trouve intéressants,
  du troll (oui je me répète aussi parfois)... 
 
 Maintenant que c'est dit: je vais chercher comment propulser ce premier billet!

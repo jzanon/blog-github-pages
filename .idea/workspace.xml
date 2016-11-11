@@ -125,8 +125,8 @@
         <entry file="file://$PROJECT_DIR$/content/blog/blogInitPush.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="180">
-                <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <first_editor relative-caret-position="342">
+                <caret line="19" column="127" selection-start-line="19" selection-start-column="127" selection-end-line="19" selection-end-column="127" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -689,7 +689,7 @@
       <updated>1478260708063</updated>
       <workItem from="1478260709824" duration="105000" />
       <workItem from="1478260843178" duration="5283000" />
-      <workItem from="1478857206342" duration="18377000" />
+      <workItem from="1478857206342" duration="18406000" />
     </task>
     <task id="LOCAL-00001" summary="SSL usage">
       <created>1478877194025</created>
@@ -702,7 +702,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23765000" />
+    <option name="totallyTimeSpent" value="23794000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="21" width="1318" height="747" extended-state="6" />
@@ -1274,8 +1274,8 @@
     <entry file="file://$PROJECT_DIR$/content/blog/blogInitPush.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="180">
-            <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <first_editor relative-caret-position="342">
+            <caret line="19" column="127" selection-start-line="19" selection-start-column="127" selection-end-line="19" selection-end-column="127" />
             <folding />
           </first_editor>
           <second_editor />
