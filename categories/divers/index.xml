@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Divers on Glose de dev</title>
-    <link>http://glosededev.github.io/blog/categories/divers/</link>
+    <link>https://jzanon.github.io/gloseDeDev/categories/divers/</link>
     <description>Recent content in Divers on Glose de dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Fri, 11 Nov 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://glosededev.github.io/blog/categories/divers/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jzanon.github.io/gloseDeDev/categories/divers/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>DevFest Toulouse 2016 - Retour global</title>
-      <link>http://glosededev.github.io/blog/2016/11/11/devfest-toulouse-2016---retour-global/</link>
+      <link>https://jzanon.github.io/gloseDeDev/2016/11/11/devfest-toulouse-2016---retour-global/</link>
       <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://glosededev.github.io/blog/2016/11/11/devfest-toulouse-2016---retour-global/</guid>
+      <guid>https://jzanon.github.io/gloseDeDev/2016/11/11/devfest-toulouse-2016---retour-global/</guid>
       <description>
 
 &lt;p&gt;Docdoku était sponsor du 1er Toulouse DevFest 2016 qui a eu lieu le 3 Novembre 2016 dans les locaux de l&amp;rsquo;IUT de Blagnac,
@@ -72,10 +72,10 @@ Mais on été un peu serrés durant les inter-sessions, du coup c&amp;rsquo;etai
     
     <item>
       <title>Blog Init &amp;&amp; Push</title>
-      <link>http://glosededev.github.io/blog/2016/11/10/blog-init--push/</link>
+      <link>https://jzanon.github.io/gloseDeDev/2016/11/10/blog-init--push/</link>
       <pubDate>Thu, 10 Nov 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://glosededev.github.io/blog/2016/11/10/blog-init--push/</guid>
+      <guid>https://jzanon.github.io/gloseDeDev/2016/11/10/blog-init--push/</guid>
       <description>&lt;p&gt;Comme pour beaucoup, l&amp;rsquo;idée d&amp;rsquo;un blog me taraude depuis longtemps: plein d&amp;rsquo;idée, de réactions positives ou négatives&amp;hellip;
 Une envie de partage au travers un outil qu&amp;rsquo;on utilise tous les jours en tant que développeur: Internet.&lt;/p&gt;
 
