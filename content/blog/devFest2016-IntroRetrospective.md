@@ -56,6 +56,6 @@ Les organisateurs: Disponibles, agréables... Bon j'en connaissais déjà 2 ;-)
 
 Les Repas / Boissons: Excellent && En quantité suffisante! 
 
-# Conclusion
+# Pour finir
 
 1er VRAI évènement adressé aux développeurs Toulousains, j'espère vraiment qu'il y aura une session 2017!
