@@ -8,7 +8,7 @@ publishdir= "public"
 canonifyurls= true
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "GloseDeDev"
+disqusShortname = "julienzanon"
 googleAnalytics = ""
 
 [permalinks]

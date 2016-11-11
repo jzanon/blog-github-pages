@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7c5d190-bc7a-4420-aa9b-c5c1390c0433" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/blog/blogInitPush.md" afterPath="$PROJECT_DIR$/content/blog/blogInitPush.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/hugo-future-imperfect" afterPath="$PROJECT_DIR$/themes/hugo-future-imperfect" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.toml" afterPath="$PROJECT_DIR$/config.toml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/hugo-future-imperfect/layouts/post/content-single.html" afterPath="$PROJECT_DIR$/themes/hugo-future-imperfect/layouts/post/content-single.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/hugo-future-imperfect/static/css/add-on.css" afterPath="$PROJECT_DIR$/themes/hugo-future-imperfect/static/css/add-on.css" />
     </list>
@@ -25,6 +26,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="config.toml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config.toml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="blog.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/hugo-future-imperfect/archetypes/blog.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
@@ -61,11 +72,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add-on.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="add-on.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/themes/hugo-future-imperfect/static/css/add-on.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="170" column="8" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="8" />
+            <state relative-caret-position="329">
+              <caret line="182" column="26" selection-start-line="182" selection-start-column="26" selection-end-line="182" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -90,7 +101,7 @@
     </leaf>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/hugo-future-imperfect" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="modificationStamps">
@@ -114,10 +125,10 @@
         <option value="$PROJECT_DIR$/deploy.sh" />
         <option value="$PROJECT_DIR$/content/blog/devFest2016-KotlinForAndroid.md" />
         <option value="$PROJECT_DIR$/content/blog/devFest2016-IntroRetrospective.md" />
-        <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/content/blog/blogInitPush.md" />
         <option value="$PROJECT_DIR$/themes/hugo-future-imperfect/layouts/post/content-single.html" />
         <option value="$PROJECT_DIR$/themes/hugo-future-imperfect/static/css/add-on.css" />
+        <option value="$PROJECT_DIR$/config.toml" />
       </list>
     </option>
   </component>
@@ -819,7 +830,7 @@
       <updated>1478260708063</updated>
       <workItem from="1478260709824" duration="105000" />
       <workItem from="1478260843178" duration="5283000" />
-      <workItem from="1478857206342" duration="15724000" />
+      <workItem from="1478857206342" duration="16329000" />
     </task>
     <task id="LOCAL-00001" summary="SSL usage">
       <created>1478877194025</created>
@@ -832,7 +843,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21112000" />
+    <option name="totallyTimeSpent" value="21717000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="21" width="1318" height="747" extended-state="6" />
@@ -1271,14 +1282,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.toml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1350">
-          <caret line="0" column="11" selection-start-line="0" selection-start-column="11" selection-end-line="0" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/themes/hugo-future-imperfect/static/js/highlight.pack.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -1369,8 +1372,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/themes/hugo-future-imperfect/static/css/add-on.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="170" column="8" selection-start-line="170" selection-start-column="8" selection-end-line="170" selection-end-column="8" />
+        <state relative-caret-position="329">
+          <caret line="182" column="26" selection-start-line="182" selection-start-column="26" selection-end-line="182" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.toml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
