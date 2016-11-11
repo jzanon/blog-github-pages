@@ -8,7 +8,8 @@ featuredalt = ""
 featuredpath = "date"
 linktitle = ""
 title = "DevFest Toulouse 2016 - Kotlin for Android"
-type = "relecture"
+type = "post"
+draft = true
 +++
 
 ## Présentation
