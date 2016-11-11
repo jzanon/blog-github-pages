@@ -169,6 +169,10 @@ blockquote p {
 #social-share {
     position: relative;
     top: -0.5em;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    border-top: dotted 1px rgba(160, 160, 160, 0.3);
+    border-bottom: dotted 1px rgba(160, 160, 160, 0.3);
 }
 
 #social-share ul {
@@ -178,6 +182,7 @@ blockquote p {
 #social-share .icons li {
     padding: 0 !important;
     padding-bottom: 10px !important;
+    padding-left: 10px !important;
 }
 
 #social-share ul li p {
@@ -186,7 +191,7 @@ blockquote p {
 
 #social-share .share-btn {
     padding: 0.5em;
-    width: 4em;
+    width: 3em;
 }
 
 #social-share-nav .share-btn h3{
