@@ -1,0 +1,736 @@
+<!DOCTYPE HTML>
+
+<html>
+    <head>
+        
+            
+                <title>Blog Init &amp;&amp; Push</title>
+            
+        
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="generator" content="Hugo 0.16" />
+        
+
+
+        
+            <meta name="author" content="Julien Zanon">
+        
+        
+            
+                <meta name="description" content="HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo">
+            
+        
+
+        
+
+  <meta name="twitter:card" content="summary"/>
+
+
+
+<meta name="twitter:title" content="Blog Init &amp;&amp; Push"/>
+<meta name="twitter:description" content="Comme pour beaucoup, l&rsquo;idée d&rsquo;un blog me taraude depuis longtemps: plein d&rsquo;idée, de réactions positives ou négatives&hellip; Une envie de partage au travers un outil qu&rsquo;on utilise tous les jours en tant que développeur: Internet. Mais lorsqu&rsquo;on se pose devant l&rsquo;ordinateur, les choses se compliquent avec ce terrible Syndrome de l&rsquo;imposteur qui nous prend. Et après des mois de tergiversations, je l&rsquo;ai fait: je publie ce premier billet tout en préparant un retour sur le premier évènement de grande ampleur Toulousain adressé aux développeurs: DevFest Toulouse."/>
+<meta name="twitter:site" content="@jullienzan"/>
+
+
+        <meta property="og:title" content="Blog Init &amp;&amp; Push" />
+<meta property="og:description" content="Comme pour beaucoup, l&rsquo;idée d&rsquo;un blog me taraude depuis longtemps: plein d&rsquo;idée, de réactions positives ou négatives&hellip; Une envie de partage au travers un outil qu&rsquo;on utilise tous les jours en tant que développeur: Internet. Mais lorsqu&rsquo;on se pose devant l&rsquo;ordinateur, les choses se compliquent avec ce terrible Syndrome de l&rsquo;imposteur qui nous prend. Et après des mois de tergiversations, je l&rsquo;ai fait: je publie ce premier billet tout en préparant un retour sur le premier évènement de grande ampleur Toulousain adressé aux développeurs: DevFest Toulouse." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://glosededev.github.io/blog/2016/11/10/blog-init--push/" />
+
+
+<meta property="og:updated_time" content="2016-11-10T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+        
+<meta itemprop="name" content="Blog Init &amp;&amp; Push">
+<meta itemprop="description" content="Comme pour beaucoup, l&rsquo;idée d&rsquo;un blog me taraude depuis longtemps: plein d&rsquo;idée, de réactions positives ou négatives&hellip; Une envie de partage au travers un outil qu&rsquo;on utilise tous les jours en tant que développeur: Internet. Mais lorsqu&rsquo;on se pose devant l&rsquo;ordinateur, les choses se compliquent avec ce terrible Syndrome de l&rsquo;imposteur qui nous prend. Et après des mois de tergiversations, je l&rsquo;ai fait: je publie ce premier billet tout en préparant un retour sur le premier évènement de grande ampleur Toulousain adressé aux développeurs: DevFest Toulouse.">
+
+
+<meta itemprop="dateModified" content="2016-11-10T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="126">
+
+
+
+<meta itemprop="keywords" content="Android,Dev,Divers,Kotlin," />
+
+        
+
+        
+
+        
+        
+            
+        
+
+        
+        
+            <link rel="stylesheet" href="http://glosededev.github.io/blog/css/google-font.css" />
+            <link rel="stylesheet" href="http://glosededev.github.io/blog/css/font-awesome.min.css" />
+            <link rel="stylesheet" href="http://glosededev.github.io/blog/css/main.css" />
+            <link rel="stylesheet" href="http://glosededev.github.io/blog/css/add-on.css" />
+            <link rel="stylesheet" href="http://glosededev.github.io/blog/css/monokai-sublime.css">
+        
+
+        
+
+        
+        
+        
+            
+        
+    </head>
+    <body>
+
+        
+        <div id="wrapper">
+
+    
+    
+<header id="header">
+    
+        <h2><a href="http://glosededev.github.io/blog/">Glose de dev</i></a></h2>
+    
+
+    <nav class="links">
+        <ul>
+            
+                <li>
+                    <a href="http://glosededev.github.io/blog/">
+                        
+                            <i class="fa fa-newspaper-o">&nbsp;</i>Blog
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://glosededev.github.io/blog/categories">
+                        Categories
+                    </a>
+                </li>
+            
+                <li>
+                    <a href="http://glosededev.github.io/blog/about">
+                        About
+                    </a>
+                </li>
+            
+        </ul>
+    </nav>
+    <nav class="main">
+        <ul>
+            
+            <li id="share-nav" class="share-menu" style="display:none;">
+                <a class="fa-share-alt" href="#share-menu">Share</a>
+            </li>
+            
+            <li class="search">
+                <a class="fa-search" href="#search">Search</a>
+                <form id="search" method="get" action="//google.com/search">
+                    <input type="text" name="q" placeholder="Search" />
+                    <input type="hidden" name="q" value="site:http://glosededev.github.io/blog">
+                </form>
+            </li>
+            <li class="menu">
+                <a class="fa-bars" href="#menu">Menu</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+<section id="menu">
+
+    
+        <section>
+            <form class="search" method="get" action="//google.com/search">
+                <input type="text" name="q" placeholder="Search" />
+                <input type="hidden" name="q" value="site:http://glosededev.github.io/blog">
+            </form>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                
+                    <li>
+                        <a href="http://glosededev.github.io/blog/">
+                            <h3>
+                                
+                                    <i class="fa fa-newspaper-o">&nbsp;</i>
+                                
+                                Blog
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://glosededev.github.io/blog/categories">
+                            <h3>
+                                
+                                Categories
+                            </h3>
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="http://glosededev.github.io/blog/about">
+                            <h3>
+                                
+                                About
+                            </h3>
+                        </a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        <section>
+            <ul class="links">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    <li>
+                        <a href="http://glosededev.github.io/blog/2016/11/10/blog-init--push/"><p>Blog Init &amp;&amp; Push</p></a>
+                    </li>
+                
+            </ul>
+        </section>
+
+    
+        
+</section>
+
+    <section id="share-menu">
+    <section id="social-share-nav">
+        <ul class="links">
+            <header>
+                <h3>Share this post <i class="fa fa-smile-o"></i></h3>
+            </header>
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fglosededev.github.io%2fblog%2f2016%2f11%2f10%2fblog-init--push%2f&text=Blog%20Init%20%26%26%20Push&via=jullienzan" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=http%3a%2f%2fglosededev.github.io%2fblog%2f2016%2f11%2f10%2fblog-init--push%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fglosededev.github.io%2fblog%2f2016%2f11%2f10%2fblog-init--push%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fglosededev.github.io%2fblog%2f2016%2f11%2f10%2fblog-init--push%2f&title=Blog%20Init%20%26%26%20Push" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fglosededev.github.io%2fblog%2f2016%2f11%2f10%2fblog-init--push%2f&title=Blog%20Init%20%26%26%20Push" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fglosededev.github.io%2fblog%2f2016%2f11%2f10%2fblog-init--push%2f&title=Blog%20Init%20%26%26%20Push" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Julien%20Zanon&body=http%3a%2f%2fglosededev.github.io%2fblog%2f2016%2f11%2f10%2fblog-init--push%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+</section>
+
+    
+    <div id="main">
+        
+        
+        <article class="post">
+    <header>
+    <div class="title">
+        
+            <h1><a href="http://glosededev.github.io/blog/2016/11/10/blog-init--push/">Blog Init &amp;&amp; Push</a></h1>
+            
+        
+        
+    </div>
+    <div class="meta">
+        
+            
+        
+
+        <time class="published"
+            datetime='2016-11-10'>
+            November 10, 2016</time>
+        <span class="author">Julien Zanon</span>
+        
+            <p>1 minute read</p>
+        
+        
+    </div>
+</header>
+
+
+    <section id="social-share">
+        <ul class="icons">
+            
+
+
+<li><a href="//twitter.com/share?url=http%3a%2f%2fglosededev.github.io%2fblog%2f2016%2f11%2f10%2fblog-init--push%2f&text=Blog%20Init%20%26%26%20Push&via=jullienzan" target="_blank" class="share-btn twitter">
+    <i class="fa fa-twitter"></i>
+    <p>Twitter</p>
+</a></li>
+
+
+<li><a href="//plus.google.com/share?url=http%3a%2f%2fglosededev.github.io%2fblog%2f2016%2f11%2f10%2fblog-init--push%2f" target="_blank" class="share-btn google-plus">
+    <i class="fa fa-google-plus"></i>
+    <p>Google+</p>
+</a></li>
+
+
+<li><a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fglosededev.github.io%2fblog%2f2016%2f11%2f10%2fblog-init--push%2f" target="_blank" class="share-btn facebook">
+    <i class="fa fa-facebook"></i>
+    <p>Facebook</p>
+</a></li>
+
+
+<li><a href="//reddit.com/submit?url=http%3a%2f%2fglosededev.github.io%2fblog%2f2016%2f11%2f10%2fblog-init--push%2f&title=Blog%20Init%20%26%26%20Push" target="_blank" class="share-btn reddit">
+    <i class="fa fa-reddit-alien"></i>
+    <p>Reddit</p>
+</a></li>
+
+
+<li><a href="//www.linkedin.com/shareArticle?url=http%3a%2f%2fglosededev.github.io%2fblog%2f2016%2f11%2f10%2fblog-init--push%2f&title=Blog%20Init%20%26%26%20Push" target="_blank" class="share-btn linkedin">
+    <i class="fa fa-linkedin"></i>
+    <p>LinkedIn</p>
+</a></li>
+
+
+<li><a href="//www.stumbleupon.com/submit?url=http%3a%2f%2fglosededev.github.io%2fblog%2f2016%2f11%2f10%2fblog-init--push%2f&title=Blog%20Init%20%26%26%20Push" target="_blank" class="share-btn stumbleupon">
+    <i class="fa fa-stumbleupon"></i>
+    <p>StumbleUpon</p>
+</a></li>
+
+
+<li><a href="mailto:?subject=Check out this post by Julien%20Zanon&body=http%3a%2f%2fglosededev.github.io%2fblog%2f2016%2f11%2f10%2fblog-init--push%2f" target="_blank" class="share-btn email">
+    <i class="fa fa-envelope"></i>
+    <p>Email</p>
+</a></li>
+
+        </ul>
+    </section>
+    
+    
+
+    
+        
+        
+
+
+
+
+    
+    
+        
+    
+
+
+        
+
+        <a href="http://glosededev.github.io/blog/2016/11/10/blog-init--push/" class="image featured">
+            <img src="http://glosededev.github.io/blog/img/2016/11/" alt="" />
+        </a>
+    
+
+
+    <div id="content">
+        <p>Comme pour beaucoup, l&rsquo;idée d&rsquo;un blog me taraude depuis longtemps: plein d&rsquo;idée, de réactions positives ou négatives&hellip;
+Une envie de partage au travers un outil qu&rsquo;on utilise tous les jours en tant que développeur: Internet.</p>
+
+<p>Mais lorsqu&rsquo;on se pose devant l&rsquo;ordinateur, les choses se compliquent avec ce terrible
+<a href="https://fr.wikipedia.org/wiki/Syndrome_de_l%27imposteur">Syndrome de l&rsquo;imposteur</a> qui nous prend.
+Et après des mois de tergiversations, je l&rsquo;ai fait:
+je publie ce premier billet tout en préparant un retour sur le premier évènement de grande ampleur Toulousain
+adressé aux développeurs: DevFest Toulouse.</p>
+
+<p>Par ailleurs il va falloir s&rsquo;attendre à du troll, des anglisismes, des pointeurs vers d&rsquo;autres blogs que je trouve intéressant,
+ du troll (oui je me répète aussi parfois)&hellip;</p>
+
+<p>Maintenant que c&rsquo;est dit: je vais chercher comment propulser ce premier billet!</p>
+
+    </div>
+
+    <footer>
+        <ul class="stats">
+    
+        
+
+        
+        
+            <li>
+                
+                
+                    
+
+                    
+
+                    
+
+                    
+                        Category
+                    
+                
+            </li>
+        
+    
+
+    
+    
+        <li><a href='http://glosededev.github.io/blog/categoriesdivers'>Divers</a></li>
+    
+</ul>
+
+    </footer>
+</article>
+<ul class="actions pagination">
+    
+
+    
+        <li><a href="http://glosededev.github.io/blog/2016/11/11/devfest-toulouse-2016---retour-global/"
+                class="button big next">DevFest Toulouse 2016 - Retour global</a></li>
+    
+</ul>
+
+
+
+    
+        <article class="post">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'shortname';
+    var disqus_identifier = 'http:\/\/glosededev.github.io\/blog\/2016\/11\/10\/blog-init--push\/';
+    var disqus_title = 'Blog Init \x26\x26 Push';
+    var disqus_url = 'http:\/\/glosededev.github.io\/blog\/2016\/11\/10\/blog-init--push\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+        </article>
+    
+
+
+    </div>
+    
+<section id="sidebar">
+
+    
+        <section id="intro">
+            
+            
+                
+                    <a href="http://glosededev.github.io/blog/" class="logo"><img src="http://glosededev.github.io/blog/img/main/logo.jpg" alt="Hugo Future Imperfect" /></a>
+                
+            
+            
+                <header>
+                    <h2>Glose de dev</h2>
+                    <p>Quelques pensées, analyses, liens utiles que je vois passer au fur et à mesure de ma veille</p>
+                </header>
+            
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/jzanon" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/julien-zanon" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/jullienzan" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+                
+            </ul>
+        </section>
+
+    
+        <section id="recent-posts">
+            <ul class="posts">
+                <header>
+                    <h3>Recent Posts</h3>
+                </header>
+                
+                    
+                
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <h3><a href="http://glosededev.github.io/blog/2016/11/10/blog-init--push/">Blog Init &amp;&amp; Push</a></h3>
+                                
+                                    
+                                
+                                <time class="published" datetime=
+                                    '2016-11-10'>
+                                    November 10, 2016</time>
+                            </header>
+                        </article>
+                    </li>
+                
+
+                
+            </ul>
+        </section>
+
+    
+    
+    
+    
+        <section id="categories">
+            <ul class="posts">
+                <header>
+                    <h3><a href="http://glosededev.github.io/blog/categories/">Categories</a></h3>
+                </header>
+
+                
+                    
+                
+
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="http://glosededev.github.io/blog/categories/divers/">Divers</a>
+                                <span style="float:right;">2</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="http://glosededev.github.io/blog/categories/android/">Android</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="http://glosededev.github.io/blog/categories/dev/">Dev</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+                    <li>
+                        <article>
+                            <header>
+                                <a href="http://glosededev.github.io/blog/categories/kotlin/">Kotlin</a>
+                                <span style="float:right;">1</span>
+                            </header>
+                        </article>
+                    </li>
+                
+            </ul>
+        </section>
+    
+
+    
+        
+        <section class="blurb">
+            <h2>About</h2>
+            <p>...</p>
+
+            <ul class="actions">
+                <li><a href="http://glosededev.github.io/blog/about/" class="button">Learn More</a></li>
+            </ul>
+        </section>
+        
+
+    
+        <section id="footer">
+            <ul class="icons">
+                
+                
+                    
+<li><a href="//github.com/jzanon" target="_blank" title="GitHub" class="fa fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/julien-zanon" target="_blank" title="LinkedIn" class="fa fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/jullienzan" target="_blank" title="Twitter" class="fa fa-twitter"></a></li>
+
+
+
+
+                
+            </ul>
+
+            <p class="copyright">&copy; Glose de dev. Design: <a href="http://html5up.net" target="_blank">HTML5 UP</a>. Ported by <a href="//github.com/jpescador" target="_blank">Julio Pescador</a>. Powered by <a href="//gohugo.io" target="_blank">Hugo</a></p>
+        </section>
+
+</section>
+
+            </div>
+        <a id="back-to-top" href="#" class="fa fa-arrow-up fa-border fa-2x"></a>
+        
+
+        
+        
+            
+        
+
+        
+        
+            <script src="http://glosededev.github.io/blog/js/jquery.min.js"></script>
+            <script src="http://glosededev.github.io/blog/js/skel.min.js"></script>
+            <script src="http://glosededev.github.io/blog/js/util.js"></script>
+            <script src="http://glosededev.github.io/blog/js/main.js"></script>
+            <script src="http://glosededev.github.io/blog/js/backToTop.js"></script>
+            <script src="http://glosededev.github.io/blog/js/highlight.pack.js"></script>
+        
+
+        
+
+            
+            <script>hljs.initHighlightingOnLoad();</script>
+            
+    </body>
+</html>
+
