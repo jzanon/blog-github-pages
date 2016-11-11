@@ -9,7 +9,6 @@ featuredpath = "date"
 linktitle = ""
 title = "DevFest Toulouse 2016 - Retour global"
 type = "post"
-draft = true
 +++
 
 Docdoku était sponsor du 1er Toulouse DevFest 2016 qui a eu lieu le 3 Novembre 2016 dans les locaux de l'IUT de Blagnac,
