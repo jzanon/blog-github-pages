@@ -1,4 +1,4 @@
-baseurl = "http://glosededev.github.io/blog"
+baseurl = "https://jzanon.github.io/gloseDeDev"
 title = "Glose de dev"
 languageCode = "fr-fr"
 theme = "hugo-future-imperfect"
