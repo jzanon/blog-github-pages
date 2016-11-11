@@ -2,106 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e7c5d190-bc7a-4420-aa9b-c5c1390c0433" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/raleway-v10-latin-ext_latin-800.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/raleway-v10-latin-ext_latin-800.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/raleway-v10-latin-ext_latin-800.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/raleway-v10-latin-ext_latin-800.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/raleway-v10-latin-ext_latin-900.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/raleway-v10-latin-ext_latin-900.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/raleway-v10-latin-ext_latin-900.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/raleway-v10-latin-ext_latin-900.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/raleway-v10-latin-ext_latin-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/raleway-v10-latin-ext_latin-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/raleway-v10-latin-ext_latin-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/raleway-v10-latin-ext_latin-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-700.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-700.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-700.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-700.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-regular.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/2014/04/pic02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/2014/04/pic03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/2014/09/pic01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/2016/11/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/main/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/img/main/logo_centered.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/2014/04/pic02.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/2014/04/pic03.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/2014/09/pic01.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/2016/11/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/main/logo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/img/main/logo_centered.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/themes/hugo-future-imperfect" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/julien.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/gloseDeDev.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LICENSE" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.toml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/about.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/blog/blogInitPush.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/blog/devFest2016-IntroRetrospective.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/content/blog/devFest2016-KotlinForAndroid.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/2016/11/10/blog-init--push/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/2016/11/11/devfest-toulouse-2016---kotlin-for-android/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/2016/11/11/devfest-toulouse-2016---retour-global/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/404.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/about/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blog/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blog/index.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/blog/page/1/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/categories/android/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/categories/android/index.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/categories/android/page/1/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/categories/dev/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/categories/dev/index.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/categories/dev/page/1/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/categories/divers/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/categories/divers/index.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/categories/divers/page/1/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/categories/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/categories/kotlin/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/categories/kotlin/index.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/categories/kotlin/page/1/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/add-on.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/google-font.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/ie8.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/ie9.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/monokai-sublime.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/raleway-v10-latin-ext_latin-800.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/raleway-v10-latin-ext_latin-900.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/raleway-v10-latin-ext_latin-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-700.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/fonts/source-sans-pro-v9-latin-ext_latin_vietnamese-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/index.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/backToTop.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/highlight.pack.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/ie/html5shiv.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/ie/respond.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/jquery.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/main.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/skel.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/util.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/page/1/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/sitemap.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/themes/hugo-future-imperfect/archetypes/blog.md" afterPath="$PROJECT_DIR$/themes/hugo-future-imperfect/archetypes/blog.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="gloseDeDev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -125,8 +26,18 @@
       <file leaf-file-name="config.toml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.toml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="271">
+              <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="deploy.sh" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/deploy.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="86" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -204,10 +115,11 @@
         <option value="$PROJECT_DIR$/content/blog/creating-a-new-theme.md" />
         <option value="$PROJECT_DIR$/themes/hugo-future-imperfect/archetypes/blog.md" />
         <option value="$PROJECT_DIR$/content/blog/devFest2016-kotlin-for-android.md" />
-        <option value="$PROJECT_DIR$/config.toml" />
         <option value="$PROJECT_DIR$/content/blog/devFest2016-KotlinForAndroid.md" />
         <option value="$PROJECT_DIR$/content/blog/devFest2016-IntroRetrospective.md" />
         <option value="$PROJECT_DIR$/content/blog/blogInitPush.md" />
+        <option value="$PROJECT_DIR$/deploy.sh" />
+        <option value="$PROJECT_DIR$/config.toml" />
       </list>
     </option>
   </component>
@@ -287,131 +199,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloseDeDev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloseDeDev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloseDeDev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloseDeDev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloseDeDev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloseDeDev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloseDeDev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloseDeDev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="2016" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="11" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="10" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog-init--push" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloseDeDev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloseDeDev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloseDeDev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gloseDeDev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blog" />
+              <option name="myItemId" value=".idea" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -427,6 +215,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dico IntelliJ" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="Push.Settings">
+    <excluded-roots>
+      <path value="$PROJECT_DIR$/themes/hugo-future-imperfect" />
+    </excluded-roots>
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -878,12 +671,20 @@
       <updated>1478260708063</updated>
       <workItem from="1478260709824" duration="105000" />
       <workItem from="1478260843178" duration="5283000" />
-      <workItem from="1478857206342" duration="12311000" />
+      <workItem from="1478857206342" duration="13453000" />
     </task>
+    <task id="LOCAL-00001" summary="SSL usage">
+      <created>1478877194025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1478877194025</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17699000" />
+    <option name="totallyTimeSpent" value="18841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="21" width="1318" height="747" extended-state="6" />
@@ -930,6 +731,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/themes/hugo-future-imperfect" />
     </ignored-roots>
+    <MESSAGE value="SSL usage" />
+    <option name="LAST_COMMIT_MESSAGE" value="SSL usage" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1342,10 +1145,18 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="86" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config.toml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="271">
+          <caret line="123" column="0" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
           <folding />
         </state>
       </provider>
