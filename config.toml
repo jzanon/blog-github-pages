@@ -9,7 +9,7 @@ canonifyurls= true
 preserveTaxonomyNames = true
 paginate = 3
 disqusShortname = "julienzanon"
-googleAnalytics = ""
+googleAnalytics = "UA-87390608-1"
 
 [permalinks]
   blog = "/:year/:month/:day/:title/"
