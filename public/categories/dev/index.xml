@@ -6,39 +6,42 @@
     <description>Recent content in Dev on Glose de dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Fri, 11 Nov 2016 13:22:11 +0100</lastBuildDate>
+    <lastBuildDate>Tue, 15 Nov 2016 13:22:11 +0100</lastBuildDate>
     <atom:link href="https://jzanon.github.io/gloseDeDev/categories/dev/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>DevFest Toulouse 2016 - Kotlin for Android</title>
-      <link>https://jzanon.github.io/gloseDeDev/2016/11/11/devfest-toulouse-2016---kotlin-for-android/</link>
-      <pubDate>Fri, 11 Nov 2016 13:22:11 +0100</pubDate>
+      <link>https://jzanon.github.io/gloseDeDev/2016/11/15/devfest-toulouse-2016---kotlin-for-android/</link>
+      <pubDate>Tue, 15 Nov 2016 13:22:11 +0100</pubDate>
       
-      <guid>https://jzanon.github.io/gloseDeDev/2016/11/11/devfest-toulouse-2016---kotlin-for-android/</guid>
+      <guid>https://jzanon.github.io/gloseDeDev/2016/11/15/devfest-toulouse-2016---kotlin-for-android/</guid>
       <description>
 
 &lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;
 
-&lt;p&gt;Cette première présentation de la journée annonce la couleur: &amp;ldquo;Ici, les dev parlent aux dev!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Cette première présentation de la journée est une présentation technique.&lt;/p&gt;
 
-&lt;p&gt;Le language Kotlin nous est présenté par Arnaud comme une alternative tout à fait viable pour le développement d&amp;rsquo;applications Android.&lt;/p&gt;
+&lt;p&gt;Arnaud G. nous présente le language Kotlin comme une alternative tout à fait viable pour le développement d&amp;rsquo;applications Android.&lt;/p&gt;
 
 &lt;p&gt;Kotlin v1.0 est marqué &amp;ldquo;Production Ready&amp;rdquo; par son éditeur JetBrains.&lt;/p&gt;
 
-&lt;p&gt;Il requiert au minimum Java 6 pour le faire tourner, mais aujourd&amp;rsquo;hui QUI aurait l&amp;rsquo;idée de se lancer dans un nouveau développement sans utiliser la derni_ère version de Java disponible?! Bref.&lt;/p&gt;
+&lt;p&gt;Il requiert au minimum Java 6 pour le faire tourner.
+Soit dit en passant, aujourd&amp;rsquo;hui, QUI aurait l&amp;rsquo;idée de se lancer dans un nouveau développement sans utiliser la dernière version de Java disponible?!&lt;/p&gt;
 
-&lt;p&gt;Après une rapide présentation de quelques fonctionnalités du language, Arnaud avance l&amp;rsquo;argument qui, à mon sens,
-est primordial dans l&amp;rsquo;utilisation d&amp;rsquo;un nouveau language sur la JVM: la forte diminution du &amp;ldquo;boiler code&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;Après une rapide présentation de quelques fonctionnalités du language, Arnaud avance l&amp;rsquo;argument qui à mon sens,
+est primordial dans le choix de l&amp;rsquo;utilisation d&amp;rsquo;un nouveau language: la forte diminution du &amp;ldquo;boiler code&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;En effet, Java traîne comme un boulet 20 ans de rétro-compatibilité et concessions:
-difficile de changer les choses vu les forces en présence qui n&amp;rsquo;y voient pas forcément l&amp;rsquo;interet.&lt;/p&gt;
+difficile de changer les choses vu les intérêts divergeant des forces en présence.&lt;/p&gt;
 
 &lt;h2 id=&#34;en-vrac&#34;&gt;En vrac&lt;/h2&gt;
+
+&lt;p&gt;La trame de la présentation était bien construite, voici quelques unes de mes notes:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Kotlin est intégré de base avec Gradle.&lt;/li&gt;
 &lt;li&gt;Une fonctionnalité sympa dans IntelliJ: &amp;ldquo;Convert Java File to Kotlin&amp;rdquo;.
-Pas uniquement pour migrer de l&amp;rsquo;existant mais aussi pour découvrir le language:une façon d&amp;rsquo;apprendre.&lt;/li&gt;
+Pas uniquement pour migrer de l&amp;rsquo;existant mais aussi pour découvrir le language: une façon d&amp;rsquo;apprendre.&lt;/li&gt;
 &lt;li&gt;Mot-clé : &lt;code&gt;val&lt;/code&gt; / &lt;code&gt;var&lt;/code&gt;  pour la déclaration de valeur/variable.
 On retrouve de plus en plus ce concept dans les languages. Encore une fois, Java est à la traîne.&lt;/li&gt;
 &lt;li&gt;Null safety: utilisation de &amp;lsquo;?&amp;rsquo; et &amp;lsquo;!!&amp;rsquo;:
@@ -51,9 +54,9 @@ On retrouve de plus en plus ce concept dans les languages. Encore une fois, Java
 L&amp;rsquo;utilisation de &lt;code&gt;lateinit&lt;/code&gt; permet d&amp;rsquo;indiquer au compilateur que l&amp;rsquo;initialisation de la variable est différé.
 Sans cela le code ne compilera même pas!&lt;/li&gt;
 &lt;li&gt;L&amp;rsquo;écriture de l&amp;rsquo;équivalent &amp;ldquo;POJO + Getter + Setter + hashcode + Constructor + &amp;hellip;&amp;rdquo; est EXTREMEMENT réduite&lt;/li&gt;
-&lt;li&gt;Le concept Java de &lt;code&gt;static&lt;/code&gt; n&amp;rsquo;existe plus mais une sorte d&amp;rsquo;équivalent &lt;code&gt;companion&lt;/code&gt;est proposé.
-(Le sujet mérite d&amp;rsquo;être approfondi à mon sens)&lt;/li&gt;
-&lt;li&gt;Utilisation des paramètres nommés (et non l&amp;rsquo;ordre n&amp;rsquo;est pas fixé!)&lt;/li&gt;
+&lt;li&gt;Le concept Java de &lt;code&gt;static&lt;/code&gt; n&amp;rsquo;existe plus mais une sorte d&amp;rsquo;équivalent &lt;code&gt;companion&lt;/code&gt;est proposé
+(ce sujet mérite d&amp;rsquo;être approfondi&amp;hellip;)&lt;/li&gt;
+&lt;li&gt;Utilisation des paramètres nommés (et leur ordre n&amp;rsquo;est pas fixé!)&lt;/li&gt;
 &lt;li&gt;Mot-clé &lt;code&gt;when&lt;/code&gt; qui permet de se passer de &lt;code&gt;if&lt;/code&gt; et &lt;code&gt;switch&lt;/code&gt; qu&amp;rsquo;on connaît en Java.
 Il offre en plus la possibilité de faire du parttern matching.&lt;/li&gt;
 &lt;li&gt;La déclaration d&amp;rsquo;une fonction ne nécessite pas forcément l&amp;rsquo;encapsulation de celle-ci dans une classe&lt;/li&gt;
@@ -74,13 +77,15 @@ Cette extension propose quelques fonctionnalités utiles comme:&lt;/p&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;Malheureusement la démo préparée par Arnaud a partiellement planté,
-mais bon l&amp;rsquo;idée/le code/l&amp;rsquo;explication étaient là ;-)&lt;/p&gt;
+mais bon l&amp;rsquo;idée, le code et l&amp;rsquo;explication étaient tous là ;-)&lt;/p&gt;
 
 &lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
 
-&lt;p&gt;J&amp;rsquo;ai choisi cette session pour l&amp;rsquo;aspect Kotlin plus que pour le coté Android du sujet.
-C&amp;rsquo;est une parfaite introduction au language, les exemples de code sont clair et le discours aussi.
-Désormais si l&amp;rsquo;on me demande la techno pour un dev Android,
+&lt;p&gt;J&amp;rsquo;ai choisi cette session plus pour l&amp;rsquo;aspect Kotlin que pour le coté Android du sujet et je n&amp;rsquo;ai pas été déçu.&lt;/p&gt;
+
+&lt;p&gt;C&amp;rsquo;est une parfaite introduction au language, les exemples de code sont clair et le discours aussi.&lt;/p&gt;
+
+&lt;p&gt;Désormais si l&amp;rsquo;on me demande la techno pour un dev Android,
 Kotlin sera une alternative que j&amp;rsquo;étudierai sérieusement.&lt;/p&gt;
 </description>
     </item>
