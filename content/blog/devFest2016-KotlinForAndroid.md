@@ -74,8 +74,9 @@ C'est une parfaite introduction au language, les exemples de code sont clair et 
 Désormais si l'on me demande la techno pour un dev Android,
 Kotlin sera une alternative que j'étudierai sérieusement.
  
+Les slides: https://speakerdeck.com/agiuliani/making-android-reactive-app-with-kotlin
 
-
+Le speaker: [@arnogiu](https://twitter.com/arnogiu) sur Twitter
 
 
 
