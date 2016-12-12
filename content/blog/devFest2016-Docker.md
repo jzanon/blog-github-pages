@@ -27,7 +27,7 @@ Le présentateur introduit le sujet de manière assez directe:
 
 Par exemple il ne faut pas en attendre plus que son essence: **Docker n'est qu'une isolation de process**.
 
-Faisons un rapide tours des problématiques communes liées à la pratique de Docker.
+Faisons un rapide tour des problématiques communes liées à la pratique de Docker.
 
 ### Les applications:
 
