@@ -14,42 +14,62 @@ sur la présentation "Au-secours! Ma prod est sous Docker" de François Teychen�
 Mais le temps de sa rédaction, je me suis rendu compte que j'avais un peu plus de matière à ma disposition: 
 depuis quelques semaines ma timeline twitter est envahie d'avis et discutions de gens ayant un avis sur Docker.
 
+Je commencerai donc ce post par le REX sur la présentation du DevFest
+ puis une analyse des quelques billets les plus intéressants du moment sur le sujet.
 
 ## Le REX de François Teychené
 
-Je commence par sa conférence qui était très bien animée.
+François Teychené nous a fait un retour très dynamique sur sa propre expérience de mise en production de Docker.
+Sur un fond très intéressant il a su placer quelques punchlines bien senties pour faire de sa présentation un show tout à fait agréable!
 
 Le présentateur introduit le sujet de manière assez directe: 
-"Dire qu'on a du Docker en prod, c'est cool mais les débuts sont terriblement difficiles"
+"Dire qu'on a du Docker en prod: c'est cool, mais les débuts sont terriblement difficiles"
 
 Par exemple il ne faut pas en attendre plus que son essence: **Docker n'est qu'une isolation de process**.
 
-Les problèmes communs:
-* les applications
-* les orchestrateurs
-* les données
-* le monitoring
+Faisons un rapide tours des problématiques communes liées à la pratique de Docker.
 
 ### Les applications:
 
-Il est recommandé de ne pas chercher à "réparer" une application mais plutôt de la "remplacer": Mode cattle vs mode pet
+* Il est recommandé de ne pas chercher à "réparer" une application mais plutôt de la "remplacer": Mode cattle vs mode pet.
 
-Il faut être résilient au changement et respecter la méthodologie de l'application  12 facteurs ([12-factor app](https://12factor.net/))
+Donc on ne demande pas au responsable de la prod d'aller appliquer un patch applicatif directement sur ses plateformes.
+On reconstruit l'environnement que l'on relivre.
+Et oui, cela implique donc d'être serein sur la chaîne d'intégration continue.
+Elle doit non plus seulement être capable de tester/valider automatiquement votre code,
+ mais aussi préparer un livrable (incluant la doc c'est mieux) directement exploitable par la prod.
+Ah et il faut que ce processus soit rapide...
+
+* Quid des patchs de sécurité?
+
+On dépasse ici la question de la sécurité applicative: si le responsable de la prod doit appliquer un patch de sécurité
+il faut qu'il en ai les moyens. C'est à dire qu'il doit être capable de modifier votre DockerFile pour y intégrer le patch.
+Il prend alors la casquette de développeur (qui a dit "DevOps"? ;-) ).
+Mais est-il prêt pour cela? On touche là à une question d'organisation de l'entreprise, je ne m'étendrai pas plus sur le sujet.
+
+
+* Il faut être résilient au changement et respecter la méthodologie de l'application  12 facteurs ([12-factor app](https://12factor.net/))
+
+Docker ou pas, les 12 facteurs sont à connaître et à respecter.
+
 
 ### Les orchestrateurs
 
-L'objectif de l'outil Docker est d'assurer que le conteneur sera exactement le meme en dev qu'en prod.
+L'objectif de l'outil Docker est d'assurer que le conteneur sera exactement le même en dev qu'en prod.
 Son rôle n'est pas d'assurer que les interactions **entre** les conteneurs seront les mêmes.
 Donc lorsqu'on démarre plein de docker: c'est "sympa" mais il faut les administrer (ie. les orchestrer), 
 et là: c'est plus compliqué.
 
 Pour nous aider des éditeurs proposent des outils d'orchestration.
-Le marché est encore jeune: les produits sont nombreux, ne sont pas forcément matures 
+Le marché est encore jeune: les produits sont nombreux **mais** ne sont pas forcément matures 
 et en plus, l'éditeur de Docker lui-même se positionne en concurrence sur ce marché. 
 
-Les orchestrateurs introduisent une nouvelle couche de complexité qu'il faudra appréhender.
+On a donc de nouveaux outils qui tentent d'apporter des réponses à cette problématique (pas si nouvelle de l'orchestration)
+Et qui mette en avant une nouvelle couche de complexité que les DevOps devront appréhender
+pour seulement pouvoir prétendre à mettre du Docker en production.
 
-### Les Data
+
+### Les données
 
 La définition initiale définissait Docker comme une isolation de **process**. 
 Docker n'apporte pas de solution magique à la problématique de scalabilité des espaces de stockage des données.
@@ -60,10 +80,12 @@ Est-ce que l'on veut vraiment stocker nos données dans des conteneurs sensés �
 Plusieurs solutions existent comme:
 * Créer des conteneurs dédiés au stockage de données qu'on s'assurera de ne pas supprimer.
 * Externaliser le stockage dans un espace indépendant, 
-mais dans ce cas on délègue la responsabilité à un mécanisme externe à notre contaxte Docker
+mais dans ce cas on délègue la responsabilité à un mécanisme externe à notre contexte Docker
 
 
 ### Le monitoring
+
+Le temps commençait à manquer et le présentateur nous a fait plus un listing des solutions possible qu'un vrai REX commenté:
 
 * Des solutions possibles pour pouvoir exploiter les logs que produit votre application dans un conteneur:
   * Mettre un appender dans le logger de l'application
@@ -91,7 +113,7 @@ A eux seuls ces 2 posts ont déclenchés de longues discutions sur les forums (d
 
 Ici l'article est plus modéré, l'auteur nous donne son avis sur les limitations de Docker.
 
-Sa conclusion me parait des plus avisées.
+Sa conclusion recommandant de ne pas mettre Docker à toutes les sauces me parait des plus avisées.
 
 ## Alors: Docker en prod ou pas?
 
