@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DevOps on Glose de dev</title>
+    <link>https://jzanon.github.io/gloseDeDev/categories/devops/</link>
+    <description>Recent content in DevOps on Glose de dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 06 Dec 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://jzanon.github.io/gloseDeDev/categories/devops/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Docker en Prod: au DevFest et ailleurs</title>
+      <link>https://jzanon.github.io/gloseDeDev/2016/12/06/docker-en-prod-au-devfest-et-ailleurs/</link>
+      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzanon.github.io/gloseDeDev/2016/12/06/docker-en-prod-au-devfest-et-ailleurs/</guid>
+      <description>
+
+&lt;p&gt;Ce post était initialement prévu pour être un retour du DevFest 2016 Toulousain
+sur la présentation &amp;ldquo;Au-secours! Ma prod est sous Docker&amp;rdquo; de François Teychené.
+Mais le temps de sa rédaction, je me suis rendu compte que j&amp;rsquo;avais un peu plus de matière à ma disposition:
+depuis quelques semaines ma timeline twitter est envahie d&amp;rsquo;avis et discutions de gens ayant un avis sur Docker.&lt;/p&gt;
+
+&lt;p&gt;Je rédige donc ce post sous la forme d&amp;rsquo;un résumé (légèrement biaisé par ma vision sur le sujet) de la présentation du DevFest
+ et des quelques billets les plus intéressants du moment sur le sujet.&lt;/p&gt;
+
+&lt;h2 id=&#34;le-rex-de-françois-teychené&#34;&gt;Le REX de François Teychené&lt;/h2&gt;
+
+&lt;p&gt;François Teychené nous a fait un retour très dynamique sur sa propre expérience de mise en production de Docker.
+Sur un fond très intéressant il a su placer quelques punchlines bien senties pour faire de sa présentation un show tout à fait agréable!&lt;/p&gt;
+
+&lt;p&gt;Le présentateur introduit le sujet de manière assez directe:
+&amp;ldquo;Dire qu&amp;rsquo;on a du Docker en prod: c&amp;rsquo;est cool, mais les débuts sont terriblement difficiles&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Par exemple il ne faut pas en attendre plus que son essence: &lt;strong&gt;Docker n&amp;rsquo;est qu&amp;rsquo;une isolation de process&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Voici un résumé des points les plus marquants de sa présentation sur la pratique de Docker en production.&lt;/p&gt;
+
+&lt;h3 id=&#34;les-applications&#34;&gt;Les applications:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Il est recommandé de ne pas chercher à &amp;ldquo;réparer&amp;rdquo; une application mais plutôt de la &amp;ldquo;remplacer&amp;rdquo;: Mode cattle vs mode pet.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Donc on ne demande pas au responsable de la prod d&amp;rsquo;aller appliquer un patch applicatif directement sur ses plateformes.
+On reconstruit l&amp;rsquo;environnement que l&amp;rsquo;on relivre.
+Et oui, cela implique donc d&amp;rsquo;être serein sur la chaîne d&amp;rsquo;intégration continue.
+Elle doit non plus seulement être capable de tester/valider automatiquement votre code,
+ mais aussi préparer un livrable (incluant la doc c&amp;rsquo;est mieux) directement exploitable par la prod.
+Ah et il faut que ce processus soit rapide&amp;hellip;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Quid des patchs de sécurité?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;On dépasse ici la question de la sécurité applicative: si le responsable de la prod doit appliquer un patch de sécurité
+il faut qu&amp;rsquo;il en ai les moyens. C&amp;rsquo;est à dire qu&amp;rsquo;il doit être capable de modifier votre DockerFile pour y intégrer le patch.
+Il prend alors la casquette de développeur (qui a dit &amp;ldquo;DevOps&amp;rdquo;? ;-) ).
+Mais est-il prêt pour cela? On touche là à une question d&amp;rsquo;organisation de l&amp;rsquo;entreprise, je ne m&amp;rsquo;étendrai pas plus sur le sujet.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Il faut être résilient au changement et respecter la méthodologie de l&amp;rsquo;application  12 facteurs (&lt;a href=&#34;https://12factor.net/&#34;&gt;12-factor app&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Docker ou pas, les 12 facteurs sont à connaître et à respecter.&lt;/p&gt;
+
+&lt;h3 id=&#34;les-orchestrateurs&#34;&gt;Les orchestrateurs&lt;/h3&gt;
+
+&lt;p&gt;L&amp;rsquo;objectif de l&amp;rsquo;outil Docker est d&amp;rsquo;assurer que le conteneur sera exactement le même en dev qu&amp;rsquo;en prod.
+Son rôle n&amp;rsquo;est pas d&amp;rsquo;assurer que les interactions &lt;strong&gt;entre&lt;/strong&gt; les conteneurs seront les mêmes.
+Donc lorsqu&amp;rsquo;on démarre plein de docker: c&amp;rsquo;est &amp;ldquo;sympa&amp;rdquo; mais il faut les administrer (ie. les orchestrer),
+et là: c&amp;rsquo;est plus compliqué.&lt;/p&gt;
+
+&lt;p&gt;Pour nous aider, des éditeurs proposent des outils d&amp;rsquo;orchestration.
+Le marché est encore jeune: les produits sont nombreux &lt;strong&gt;mais&lt;/strong&gt; ne sont pas forcément matures
+et en plus, l&amp;rsquo;éditeur de Docker lui-même se positionne en concurrence sur ce marché.&lt;/p&gt;
+
+&lt;p&gt;On a donc de nouveaux outils qui tentent d&amp;rsquo;apporter des réponses à cette problématique (pas si nouvelle de l&amp;rsquo;orchestration)
+et qui mettent en avant une nouvelle couche de complexité que les DevOps devront appréhender
+pour seulement pouvoir prétendre à mettre du Docker en production!&lt;/p&gt;
+
+&lt;h3 id=&#34;les-données&#34;&gt;Les données&lt;/h3&gt;
+
+&lt;p&gt;La définition initiale définissait Docker comme une isolation de &lt;strong&gt;process&lt;/strong&gt;.
+Docker n&amp;rsquo;apporte pas de solution magique à la problématique de scalabilité des espaces de stockage des données.&lt;/p&gt;
+
+&lt;p&gt;Par défaut les VOLUMES ont un cycle de vie dépendant des conteneurs.
+Est-ce que l&amp;rsquo;on veut vraiment stocker nos données dans des conteneurs sensés être &amp;ldquo;jetables&amp;rdquo;?&lt;/p&gt;
+
+&lt;p&gt;Plusieurs solutions existent comme:
+* Créer des conteneurs dédiés au stockage de données qu&amp;rsquo;on s&amp;rsquo;assurera de ne pas supprimer.
+* Externaliser le stockage dans un espace indépendant,
+mais dans ce cas on délègue la responsabilité à un mécanisme externe à notre contexte Docker&lt;/p&gt;
+
+&lt;h3 id=&#34;le-monitoring&#34;&gt;Le monitoring&lt;/h3&gt;
+
+&lt;p&gt;Le temps commençait à manquer et le présentateur nous a fait plus un listing des solutions possible qu&amp;rsquo;un vrai REX commenté:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Des solutions possibles pour pouvoir exploiter les logs que produit votre application dans un conteneur:
+
+&lt;ul&gt;
+&lt;li&gt;Mettre un appender dans le logger de l&amp;rsquo;application&lt;/li&gt;
+&lt;li&gt;S&amp;rsquo;appuyer sur le Docker Logging Driver mais pour le moment il semblerait que l&amp;rsquo;on ne puisse en utiliser qu&amp;rsquo;1 seul par container&lt;/li&gt;
+&lt;li&gt;Alternative: les Docker agents de logs&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Les performances
+
+&lt;ul&gt;
+&lt;li&gt;Utiliser des monitoring agent comme cAdvisor, DockerBeats&amp;hellip;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;d-autres-rex-et-débats&#34;&gt;D&amp;rsquo;autres REX et débats&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://thehftguy.com/2016/11/01/docker-in-production-an-history-of-failure/&#34;&gt;Docker in production: An history of failure&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;L&amp;rsquo;auteur de ce post pointe ce qu&amp;rsquo;il considère comme des manquement à une application apte à tourner en production.&lt;/p&gt;
+
+&lt;p&gt;Certains de ces points sont vrais, d&amp;rsquo;autres pleins de mauvaise foi et certains sont même erronés. (cf. l&amp;rsquo;article suivant)
+Cet article est intéressant à lire et doit être complété par la lecture d&amp;rsquo;autres points de vues sur le sujet.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://patrobinson.github.io/2016/11/05/docker-in-production/&#34;&gt;Docker in Production: A retort&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;4 jours après la diffusion du post précédent un autre blogger lui répond, parfois avec autant de mauvaise foi.&lt;/p&gt;
+
+&lt;p&gt;A eux seuls ces 2 posts ont déclenchés de longues discutions sur les forums (de trolleurs) tels que Hacker News et Reddit.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://racknole.com/blog/running-docker-in-production-for-6-months/&#34;&gt;Running Docker in production for 6 months&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Ici l&amp;rsquo;article est plus modéré, l&amp;rsquo;auteur nous donne son avis sur les limitations de Docker.&lt;/p&gt;
+
+&lt;p&gt;Sa conclusion recommandant de ne pas mettre Docker à toutes les sauces me parait des plus avisées.&lt;/p&gt;
+
+&lt;h2 id=&#34;alors-docker-en-prod-ou-pas&#34;&gt;Alors: Docker en prod ou pas?&lt;/h2&gt;
+
+&lt;p&gt;Soyons clair: le sujet divise et l&amp;rsquo;éditeur de Docker joue un rôle dans cet imbroglio.&lt;/p&gt;
+
+&lt;p&gt;Je suis d&amp;rsquo;accord qu&amp;rsquo;en terme de communication il est &amp;ldquo;hype&amp;rdquo; d&amp;rsquo;inclure Docker dans la plaquette de son produit.
+Ca attirera des développeurs &amp;ldquo;de type hipsters&amp;rdquo;, &lt;strong&gt;oui&lt;/strong&gt;. Mais faire le buzz n&amp;rsquo;est pas la raison première du développement logiciel.
+On parle ici de mettre en production des logiciels qui répondent à un besoin métier,
+dont la raison même d&amp;rsquo;être en production est de générer de la plus-value.&lt;/p&gt;
+
+&lt;p&gt;Docker est un outil, pas une &lt;em&gt;Silver-bullet&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Il faut en &lt;strong&gt;connaître les limites et apprendre à l&amp;rsquo;utiliser&lt;/strong&gt;,
+ensuite seulement, il pourra &lt;strong&gt;peut-être vous aider à améliorer vos plus-values&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;références&#34;&gt;Références&lt;/h2&gt;
+
+&lt;p&gt;Les slides: &lt;a href=&#34;https://t.co/Ob3aisFB0p&#34;&gt;https://t.co/Ob3aisFB0p&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Le speaker: &lt;a href=&#34;https://twitter.com/fteychene&#34;&gt;@fteychene&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
