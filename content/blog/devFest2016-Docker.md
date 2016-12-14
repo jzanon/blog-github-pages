@@ -4,9 +4,8 @@ categories = ["DevOps"]
 date = "2016-12-06"
 description = "Au-secours! Ma prod est sous Docker"
 linktitle = ""
-title = "Docker au DevFest et autres débats"
+title = "Docker en Prod: au DevFest et ailleurs"
 type = "post"
-draft = true
 +++
 
 Ce post était initialement prévu pour être un retour du DevFest 2016 Toulousain 
@@ -14,8 +13,8 @@ sur la présentation "Au-secours! Ma prod est sous Docker" de François Teychen�
 Mais le temps de sa rédaction, je me suis rendu compte que j'avais un peu plus de matière à ma disposition: 
 depuis quelques semaines ma timeline twitter est envahie d'avis et discutions de gens ayant un avis sur Docker.
 
-Je commencerai donc ce post par le REX sur la présentation du DevFest
- puis une analyse des quelques billets les plus intéressants du moment sur le sujet.
+Je rédige donc ce post sous la forme d'un résumé (légèrement biaisé par ma vision sur le sujet) de la présentation du DevFest
+ et des quelques billets les plus intéressants du moment sur le sujet.
 
 ## Le REX de François Teychené
 
@@ -27,7 +26,7 @@ Le présentateur introduit le sujet de manière assez directe:
 
 Par exemple il ne faut pas en attendre plus que son essence: **Docker n'est qu'une isolation de process**.
 
-Faisons un rapide tour des problématiques communes liées à la pratique de Docker.
+Voici un résumé des points les plus marquants de sa présentation sur la pratique de Docker en production.
 
 ### Les applications:
 
@@ -60,13 +59,13 @@ Son rôle n'est pas d'assurer que les interactions **entre** les conteneurs sero
 Donc lorsqu'on démarre plein de docker: c'est "sympa" mais il faut les administrer (ie. les orchestrer), 
 et là: c'est plus compliqué.
 
-Pour nous aider des éditeurs proposent des outils d'orchestration.
+Pour nous aider, des éditeurs proposent des outils d'orchestration.
 Le marché est encore jeune: les produits sont nombreux **mais** ne sont pas forcément matures 
 et en plus, l'éditeur de Docker lui-même se positionne en concurrence sur ce marché. 
 
 On a donc de nouveaux outils qui tentent d'apporter des réponses à cette problématique (pas si nouvelle de l'orchestration)
-Et qui mette en avant une nouvelle couche de complexité que les DevOps devront appréhender
-pour seulement pouvoir prétendre à mettre du Docker en production.
+et qui mettent en avant une nouvelle couche de complexité que les DevOps devront appréhender
+pour seulement pouvoir prétendre à mettre du Docker en production!
 
 
 ### Les données
