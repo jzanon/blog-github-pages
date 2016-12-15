@@ -16,7 +16,7 @@ googleAnalytics = "UA-87390608-1"
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
-    description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
+    description          = "Quelques pensées, analyses, liens utiles que je vois passer au fur et à mesure de ma veille de développeur logiciel"
     # This will appear on the top left of the navigation bar
     navbarTitle          = "Glose de dev"
     # Social media buttons that appear on the sidebar
@@ -50,7 +50,7 @@ googleAnalytics = "UA-87390608-1"
 [params.intro]
     header    = "Glose de dev"
 
-    paragraph = "Quelques pensées, analyses, liens utiles que je vois passer au fur et à mesure de ma veille"
+    paragraph = "Quelques pensées, analyses, liens utiles que je vois passer au fur et à mesure de ma veille de développeur logiciel"
 
     about     = "..."
 
