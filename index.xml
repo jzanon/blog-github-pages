@@ -309,6 +309,36 @@ C&amp;rsquo;etait un peu limitant pour aller au contact des gens.&lt;/p&gt;
     </item>
     
     <item>
+      <title>About Glose De Dev</title>
+      <link>https://jzanon.github.io/gloseDeDev/about/</link>
+      <pubDate>Thu, 10 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzanon.github.io/gloseDeDev/about/</guid>
+      <description>
+
+&lt;h2 id=&#34;le-background&#34;&gt;Le background&lt;/h2&gt;
+
+&lt;p&gt;Je vous renvoie à mon premier billet pour ca.&lt;/p&gt;
+
+&lt;h2 id=&#34;la-technique&#34;&gt;La technique&lt;/h2&gt;
+
+&lt;p&gt;Ce site est propulsé par &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; qui permet la mise à disposition simplifiée de sites statiques.&lt;/p&gt;
+
+&lt;p&gt;La construction du site est réalisée avec le moteur &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Le thème est &amp;lsquo;Hugo Future Imperfect&amp;rsquo;.&lt;/p&gt;
+
+&lt;h2 id=&#34;l-auteur&#34;&gt;L&amp;rsquo;auteur&lt;/h2&gt;
+
+&lt;p&gt;Moi-même donc: Julien ZANON, développeur Java / Java EE ayant déjà fait un bout de chemin sur la voie de la séniorité.&lt;/p&gt;
+
+&lt;p&gt;Pour plus d&amp;rsquo;informations, on me trouve assez facilement par les moteurs de recherche usuels.&lt;/p&gt;
+
+&lt;p&gt;Merci pour votre lecture!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Blog Init &amp;&amp; Push</title>
       <link>https://jzanon.github.io/gloseDeDev/2016/11/10/blog-init--push/</link>
       <pubDate>Thu, 10 Nov 2016 00:00:00 +0000</pubDate>
@@ -327,44 +357,6 @@ adressé aux développeurs sur le bassin toulousain: le DevFest Toulouse.&lt;/p&
  du troll (oui je me répète aussi parfois)&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;Maintenant que c&amp;rsquo;est dit: je vais chercher comment propulser ce premier billet!&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>About Hugo</title>
-      <link>https://jzanon.github.io/gloseDeDev/about/</link>
-      <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>https://jzanon.github.io/gloseDeDev/about/</guid>
-      <description>
-
-&lt;p&gt;Hugo is a static site engine written in Go.&lt;/p&gt;
-
-&lt;p&gt;It makes use of a variety of open source projects including:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cobra&#34;&gt;Cobra&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/viper&#34;&gt;Viper&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/jWalterWeatherman&#34;&gt;J Walter Weatherman&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/spf13/cast&#34;&gt;Cast&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Learn more and contribute on &lt;a href=&#34;https://github.com/spf13&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;setup&#34;&gt;Setup&lt;/h2&gt;
-
-&lt;p&gt;Some fun facts about &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Built in &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Loosely inspired by &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyll&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Primarily developed by &lt;a href=&#34;http://spf13.com/&#34;&gt;spf13&lt;/a&gt; on the train while commuting to and from Manhattan.&lt;/li&gt;
-&lt;li&gt;Coded in &lt;a href=&#34;http://vim.org&#34;&gt;Vim&lt;/a&gt; using &lt;a href=&#34;http://vim.spf13.com/&#34;&gt;spf13-vim&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Have questions or suggestions? Feel free to &lt;a href=&#34;https://github.com/spf13/hugo/issues/new&#34;&gt;open an issue on GitHub&lt;/a&gt; or &lt;a href=&#34;https://twitter.com/spf13&#34;&gt;ask me on Twitter&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Thanks for reading!&lt;/p&gt;
 </description>
     </item>
     
