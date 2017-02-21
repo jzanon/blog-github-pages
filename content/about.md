@@ -1,29 +1,28 @@
 +++
-title = "About Hugo"
-date = "2014-04-09"
+title = "About Glose De Dev"
+date = "2016-11-10"
 +++
 
-Hugo is a static site engine written in Go.
+
+## Le background
+
+Je vous renvoie à mon premier billet pour ca.
 
 
-It makes use of a variety of open source projects including:
+## La technique
 
-* [Cobra](https://github.com/spf13/cobra)
-* [Viper](https://github.com/spf13/viper)
-* [J Walter Weatherman](https://github.com/spf13/jWalterWeatherman)
-* [Cast](https://github.com/spf13/cast)
+Ce site est propulsé par [GitHub Pages](https://pages.github.com/) qui permet la mise à disposition simplifiée de sites statiques.
 
-Learn more and contribute on [GitHub](https://github.com/spf13).
+La construction du site est réalisée avec le moteur [Hugo](http://gohugo.io/).
 
-## Setup
+Le thème est 'Hugo Future Imperfect'.
 
-Some fun facts about [Hugo](http://gohugo.io/):
 
-* Built in [Go](http://golang.org/)
-* Loosely inspired by [Jekyll](http://jekyllrb.com/)
-* Primarily developed by [spf13](http://spf13.com/) on the train while commuting to and from Manhattan.
-* Coded in [Vim](http://vim.org) using [spf13-vim](http://vim.spf13.com/)
+## L'auteur
 
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/spf13/hugo/issues/new) or [ask me on Twitter](https://twitter.com/spf13).
+Moi-même donc: Julien ZANON, développeur Java / Java EE ayant déjà fait un bout de chemin sur la voie de la séniorité.
 
-Thanks for reading!
+Pour plus d'informations, on me trouve assez facilement par les moteurs de recherche usuels.
+
+
+Merci pour votre lecture!
