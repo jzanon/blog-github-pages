@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://jzanon.github.io/gloseDeDev/</loc>
-    <lastmod>2016-12-06T00:00:00+00:00</lastmod>
+    <loc>https://jzanon.github.io/gloseDeDev/2019/05/05/devoxx-france-2019/</loc>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -29,6 +30,65 @@
   <url>
     <loc>https://jzanon.github.io/gloseDeDev/2016/11/10/blog-init--push/</loc>
     <lastmod>2016-11-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://jzanon.github.io/gloseDeDev/categories/android/</loc>
+    <lastmod>2016-11-15T13:22:11+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jzanon.github.io/gloseDeDev/blog/</loc>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jzanon.github.io/gloseDeDev/categories/</loc>
+    <lastmod>2016-11-15T13:22:11+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jzanon.github.io/gloseDeDev/categories/conf%C3%A9rence/</loc>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jzanon.github.io/gloseDeDev/categories/dev/</loc>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jzanon.github.io/gloseDeDev/categories/devops/</loc>
+    <lastmod>2016-12-06T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jzanon.github.io/gloseDeDev/categories/divers/</loc>
+    <lastmod>2016-11-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jzanon.github.io/gloseDeDev/</loc>
+    <lastmod>2019-05-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jzanon.github.io/gloseDeDev/categories/kotlin/</loc>
+    <lastmod>2016-11-15T13:22:11+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://jzanon.github.io/gloseDeDev/tags/</loc>
+    <priority>0</priority>
   </url>
   
 </urlset>
