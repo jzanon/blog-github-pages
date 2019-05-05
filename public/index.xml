@@ -6,8 +6,20 @@
     <description>Recent content on Glose de dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Tue, 06 Dec 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://jzanon.github.io/gloseDeDev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://jzanon.github.io/gloseDeDev/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Devoxx France 2019</title>
+      <link>https://jzanon.github.io/gloseDeDev/2019/05/05/devoxx-france-2019/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzanon.github.io/gloseDeDev/2019/05/05/devoxx-france-2019/</guid>
+      <description>2 ans et demi plus tard je publie enfin un nouveau post sur mon blog poussiéreux.
+Afin de le représenter, le Toulouse JUG m&amp;rsquo;a offert une place cette année à Devoxx France. J&amp;rsquo;ai donc pu participer pour la première fois à ce super évènement et vous propose un petit retour basé sur ce que j&amp;rsquo;ai pu voir. Je ne parlerai ici que des conférences et pas des rencontres, de l&amp;rsquo;ambiance, des BoF&amp;hellip; Il y a énormément de conférences en parallèle, toutes filmées donc l&amp;rsquo;idée est juste de vous aider à mieux choisir vos vidéos une fois qu&amp;rsquo;elles seront disponibles sur Youtube.</description>
+    </item>
     
     <item>
       <title>Docker en Prod: au DevFest et ailleurs</title>
@@ -15,150 +27,8 @@
       <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jzanon.github.io/gloseDeDev/2016/12/06/docker-en-prod-au-devfest-et-ailleurs/</guid>
-      <description>
-
-&lt;p&gt;Ce post était initialement prévu pour être un retour du DevFest 2016 Toulousain
-sur la présentation &amp;ldquo;Au-secours! Ma prod est sous Docker&amp;rdquo; de François Teychené.
-Mais le temps de sa rédaction, je me suis rendu compte que j&amp;rsquo;avais un peu plus de matière à ma disposition:
-depuis quelques semaines ma timeline twitter est envahie d&amp;rsquo;avis et discutions de gens ayant un avis sur Docker.&lt;/p&gt;
-
-&lt;p&gt;Je rédige donc ce post sous la forme d&amp;rsquo;un résumé (légèrement biaisé par ma vision sur le sujet) de la présentation du DevFest
- et des quelques billets les plus intéressants du moment sur le sujet.&lt;/p&gt;
-
-&lt;h2 id=&#34;le-rex-de-françois-teychené&#34;&gt;Le REX de François Teychené&lt;/h2&gt;
-
-&lt;p&gt;François Teychené nous a fait un retour très dynamique sur sa propre expérience de mise en production de Docker.
-Sur un fond très intéressant il a su placer quelques punchlines bien senties pour faire de sa présentation un show tout à fait agréable!&lt;/p&gt;
-
-&lt;p&gt;Le présentateur introduit le sujet de manière assez directe:
-&amp;ldquo;Dire qu&amp;rsquo;on a du Docker en prod: c&amp;rsquo;est cool, mais les débuts sont terriblement difficiles&amp;rdquo;&lt;/p&gt;
-
-&lt;p&gt;Par exemple il ne faut pas en attendre plus que son essence: &lt;strong&gt;Docker n&amp;rsquo;est qu&amp;rsquo;une isolation de process&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Voici un résumé des points les plus marquants de sa présentation sur la pratique de Docker en production.&lt;/p&gt;
-
-&lt;h3 id=&#34;les-applications&#34;&gt;Les applications:&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Il est recommandé de ne pas chercher à &amp;ldquo;réparer&amp;rdquo; une application mais plutôt de la &amp;ldquo;remplacer&amp;rdquo;: Mode cattle vs mode pet.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Donc on ne demande pas au responsable de la prod d&amp;rsquo;aller appliquer un patch applicatif directement sur ses plateformes.
-On reconstruit l&amp;rsquo;environnement que l&amp;rsquo;on relivre.
-Et oui, cela implique donc d&amp;rsquo;être serein sur la chaîne d&amp;rsquo;intégration continue.
-Elle doit non plus seulement être capable de tester/valider automatiquement votre code,
- mais aussi préparer un livrable (incluant la doc c&amp;rsquo;est mieux) directement exploitable par la prod.
-Ah et il faut que ce processus soit rapide&amp;hellip;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Quid des patchs de sécurité?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;On dépasse ici la question de la sécurité applicative: si le responsable de la prod doit appliquer un patch de sécurité
-il faut qu&amp;rsquo;il en ai les moyens. C&amp;rsquo;est à dire qu&amp;rsquo;il doit être capable de modifier votre DockerFile pour y intégrer le patch.
-Il prend alors la casquette de développeur (qui a dit &amp;ldquo;DevOps&amp;rdquo;? ;-) ).
-Mais est-il prêt pour cela? On touche là à une question d&amp;rsquo;organisation de l&amp;rsquo;entreprise, je ne m&amp;rsquo;étendrai pas plus sur le sujet.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Il faut être résilient au changement et respecter la méthodologie de l&amp;rsquo;application  12 facteurs (&lt;a href=&#34;https://12factor.net/&#34;&gt;12-factor app&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Docker ou pas, les 12 facteurs sont à connaître et à respecter.&lt;/p&gt;
-
-&lt;h3 id=&#34;les-orchestrateurs&#34;&gt;Les orchestrateurs&lt;/h3&gt;
-
-&lt;p&gt;L&amp;rsquo;objectif de l&amp;rsquo;outil Docker est d&amp;rsquo;assurer que le conteneur sera exactement le même en dev qu&amp;rsquo;en prod.
-Son rôle n&amp;rsquo;est pas d&amp;rsquo;assurer que les interactions &lt;strong&gt;entre&lt;/strong&gt; les conteneurs seront les mêmes.
-Donc lorsqu&amp;rsquo;on démarre plein de docker: c&amp;rsquo;est &amp;ldquo;sympa&amp;rdquo; mais il faut les administrer (ie. les orchestrer),
-et là: c&amp;rsquo;est plus compliqué.&lt;/p&gt;
-
-&lt;p&gt;Pour nous aider, des éditeurs proposent des outils d&amp;rsquo;orchestration.
-Le marché est encore jeune: les produits sont nombreux &lt;strong&gt;mais&lt;/strong&gt; ne sont pas forcément matures
-et en plus, l&amp;rsquo;éditeur de Docker lui-même se positionne en concurrence sur ce marché.&lt;/p&gt;
-
-&lt;p&gt;On a donc de nouveaux outils qui tentent d&amp;rsquo;apporter des réponses à cette problématique (pas si nouvelle de l&amp;rsquo;orchestration)
-et qui mettent en avant une nouvelle couche de complexité que les DevOps devront appréhender
-pour seulement pouvoir prétendre à mettre du Docker en production!&lt;/p&gt;
-
-&lt;h3 id=&#34;les-données&#34;&gt;Les données&lt;/h3&gt;
-
-&lt;p&gt;La définition initiale définissait Docker comme une isolation de &lt;strong&gt;process&lt;/strong&gt;.
-Docker n&amp;rsquo;apporte pas de solution magique à la problématique de scalabilité des espaces de stockage des données.&lt;/p&gt;
-
-&lt;p&gt;Par défaut les VOLUMES ont un cycle de vie dépendant des conteneurs.
-Est-ce que l&amp;rsquo;on veut vraiment stocker nos données dans des conteneurs sensés être &amp;ldquo;jetables&amp;rdquo;?&lt;/p&gt;
-
-&lt;p&gt;Plusieurs solutions existent comme:
-* Créer des conteneurs dédiés au stockage de données qu&amp;rsquo;on s&amp;rsquo;assurera de ne pas supprimer.
-* Externaliser le stockage dans un espace indépendant,
-mais dans ce cas on délègue la responsabilité à un mécanisme externe à notre contexte Docker&lt;/p&gt;
-
-&lt;h3 id=&#34;le-monitoring&#34;&gt;Le monitoring&lt;/h3&gt;
-
-&lt;p&gt;Le temps commençait à manquer et le présentateur nous a fait plus un listing des solutions possible qu&amp;rsquo;un vrai REX commenté:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Des solutions possibles pour pouvoir exploiter les logs que produit votre application dans un conteneur:
-
-&lt;ul&gt;
-&lt;li&gt;Mettre un appender dans le logger de l&amp;rsquo;application&lt;/li&gt;
-&lt;li&gt;S&amp;rsquo;appuyer sur le Docker Logging Driver mais pour le moment il semblerait que l&amp;rsquo;on ne puisse en utiliser qu&amp;rsquo;1 seul par container&lt;/li&gt;
-&lt;li&gt;Alternative: les Docker agents de logs&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Les performances
-
-&lt;ul&gt;
-&lt;li&gt;Utiliser des monitoring agent comme cAdvisor, DockerBeats&amp;hellip;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;d-autres-rex-et-débats&#34;&gt;D&amp;rsquo;autres REX et débats&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://thehftguy.com/2016/11/01/docker-in-production-an-history-of-failure/&#34;&gt;Docker in production: An history of failure&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;L&amp;rsquo;auteur de ce post pointe ce qu&amp;rsquo;il considère comme des manquement à une application apte à tourner en production.&lt;/p&gt;
-
-&lt;p&gt;Certains de ces points sont vrais, d&amp;rsquo;autres pleins de mauvaise foi et certains sont même erronés. (cf. l&amp;rsquo;article suivant)
-Cet article est intéressant à lire et doit être complété par la lecture d&amp;rsquo;autres points de vues sur le sujet.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://patrobinson.github.io/2016/11/05/docker-in-production/&#34;&gt;Docker in Production: A retort&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;4 jours après la diffusion du post précédent un autre blogger lui répond, parfois avec autant de mauvaise foi.&lt;/p&gt;
-
-&lt;p&gt;A eux seuls ces 2 posts ont déclenchés de longues discutions sur les forums (de trolleurs) tels que Hacker News et Reddit.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://racknole.com/blog/running-docker-in-production-for-6-months/&#34;&gt;Running Docker in production for 6 months&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Ici l&amp;rsquo;article est plus modéré, l&amp;rsquo;auteur nous donne son avis sur les limitations de Docker.&lt;/p&gt;
-
-&lt;p&gt;Sa conclusion recommandant de ne pas mettre Docker à toutes les sauces me parait des plus avisées.&lt;/p&gt;
-
-&lt;h2 id=&#34;alors-docker-en-prod-ou-pas&#34;&gt;Alors: Docker en prod ou pas?&lt;/h2&gt;
-
-&lt;p&gt;Soyons clair: le sujet divise et l&amp;rsquo;éditeur de Docker joue un rôle dans cet imbroglio.&lt;/p&gt;
-
-&lt;p&gt;Je suis d&amp;rsquo;accord qu&amp;rsquo;en terme de communication il est &amp;ldquo;hype&amp;rdquo; d&amp;rsquo;inclure Docker dans la plaquette de son produit.
-Ca attirera des développeurs &amp;ldquo;de type hipsters&amp;rdquo;, &lt;strong&gt;oui&lt;/strong&gt;. Mais faire le buzz n&amp;rsquo;est pas la raison première du développement logiciel.
-On parle ici de mettre en production des logiciels qui répondent à un besoin métier,
-dont la raison même d&amp;rsquo;être en production est de générer de la plus-value.&lt;/p&gt;
-
-&lt;p&gt;Docker est un outil, pas une &lt;em&gt;Silver-bullet&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Il faut en &lt;strong&gt;connaître les limites et apprendre à l&amp;rsquo;utiliser&lt;/strong&gt;,
-ensuite seulement, il pourra &lt;strong&gt;peut-être vous aider à améliorer vos plus-values&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;références&#34;&gt;Références&lt;/h2&gt;
-
-&lt;p&gt;Les slides: &lt;a href=&#34;https://t.co/Ob3aisFB0p&#34;&gt;https://t.co/Ob3aisFB0p&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Le speaker: &lt;a href=&#34;https://twitter.com/fteychene&#34;&gt;@fteychene&lt;/a&gt;&lt;/p&gt;
-</description>
+      <description>Ce post était initialement prévu pour être un retour du DevFest 2016 Toulousain sur la présentation &amp;ldquo;Au-secours! Ma prod est sous Docker&amp;rdquo; de François Teychené. Mais le temps de sa rédaction, je me suis rendu compte que j&amp;rsquo;avais un peu plus de matière à ma disposition: depuis quelques semaines ma timeline twitter est envahie d&amp;rsquo;avis et discutions de gens ayant un avis sur Docker.
+Je rédige donc ce post sous la forme d&amp;rsquo;un résumé (légèrement biaisé par ma vision sur le sujet) de la présentation du DevFest et des quelques billets les plus intéressants du moment sur le sujet.</description>
     </item>
     
     <item>
@@ -167,83 +37,10 @@ ensuite seulement, il pourra &lt;strong&gt;peut-être vous aider à améliorer v
       <pubDate>Tue, 15 Nov 2016 13:22:11 +0100</pubDate>
       
       <guid>https://jzanon.github.io/gloseDeDev/2016/11/15/devfest-toulouse-2016---kotlin-for-android/</guid>
-      <description>
-
-&lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;
-
-&lt;p&gt;Cette première présentation de la journée est une présentation technique.&lt;/p&gt;
-
-&lt;p&gt;Arnaud G. nous présente le language Kotlin comme une alternative tout à fait viable pour le développement d&amp;rsquo;applications Android.&lt;/p&gt;
-
-&lt;p&gt;Kotlin v1.0 est marqué &amp;ldquo;Production Ready&amp;rdquo; par son éditeur JetBrains.&lt;/p&gt;
-
-&lt;p&gt;Il requiert au minimum Java 6 pour le faire tourner.
-Soit dit en passant, aujourd&amp;rsquo;hui, QUI aurait l&amp;rsquo;idée de se lancer dans un nouveau développement sans utiliser la dernière version de Java disponible?!&lt;/p&gt;
-
-&lt;p&gt;Après une rapide présentation de quelques fonctionnalités du language, Arnaud avance l&amp;rsquo;argument qui à mon sens,
-est primordial dans le choix de l&amp;rsquo;utilisation d&amp;rsquo;un nouveau language: la forte diminution du &amp;ldquo;boiler code&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;En effet, Java traîne comme un boulet 20 ans de rétro-compatibilité et concessions:
-difficile de changer les choses vu les intérêts divergeant des forces en présence.&lt;/p&gt;
-
-&lt;h2 id=&#34;en-vrac&#34;&gt;En vrac&lt;/h2&gt;
-
-&lt;p&gt;La trame de la présentation était bien construite, voici quelques unes de mes notes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Kotlin est intégré de base avec Gradle.&lt;/li&gt;
-&lt;li&gt;Une fonctionnalité sympa dans IntelliJ: &amp;ldquo;Convert Java File to Kotlin&amp;rdquo;.
-Pas uniquement pour migrer de l&amp;rsquo;existant mais aussi pour découvrir le language: une façon d&amp;rsquo;apprendre.&lt;/li&gt;
-&lt;li&gt;Mot-clé : &lt;code&gt;val&lt;/code&gt; / &lt;code&gt;var&lt;/code&gt;  pour la déclaration de valeur/variable.
-On retrouve de plus en plus ce concept dans les languages. Encore une fois, Java est à la traîne.&lt;/li&gt;
-&lt;li&gt;Null safety: utilisation de &amp;lsquo;?&amp;rsquo; et &amp;lsquo;!!&amp;rsquo;:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;?&lt;/code&gt; semblable aux Optional de Java 8&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;!!&lt;/code&gt; jettera une exception NPE si une variable est &lt;code&gt;null&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Les variables doivent avoir des valeurs par défaut.
-L&amp;rsquo;utilisation de &lt;code&gt;lateinit&lt;/code&gt; permet d&amp;rsquo;indiquer au compilateur que l&amp;rsquo;initialisation de la variable est différé.
-Sans cela le code ne compilera même pas!&lt;/li&gt;
-&lt;li&gt;L&amp;rsquo;écriture de l&amp;rsquo;équivalent &amp;ldquo;POJO + Getter + Setter + hashcode + Constructor + &amp;hellip;&amp;rdquo; est EXTREMEMENT réduite&lt;/li&gt;
-&lt;li&gt;Le concept Java de &lt;code&gt;static&lt;/code&gt; n&amp;rsquo;existe plus mais une sorte d&amp;rsquo;équivalent &lt;code&gt;companion&lt;/code&gt;est proposé
-(ce sujet mérite d&amp;rsquo;être approfondi&amp;hellip;)&lt;/li&gt;
-&lt;li&gt;Utilisation des paramètres nommés (et leur ordre n&amp;rsquo;est pas fixé!)&lt;/li&gt;
-&lt;li&gt;Mot-clé &lt;code&gt;when&lt;/code&gt; qui permet de se passer de &lt;code&gt;if&lt;/code&gt; et &lt;code&gt;switch&lt;/code&gt; qu&amp;rsquo;on connaît en Java.
-Il offre en plus la possibilité de faire du parttern matching.&lt;/li&gt;
-&lt;li&gt;La déclaration d&amp;rsquo;une fonction ne nécessite pas forcément l&amp;rsquo;encapsulation de celle-ci dans une classe&lt;/li&gt;
-&lt;li&gt;Niveau lambda expression on est proche de ce que propose Java 8&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Pair&lt;/code&gt; pour gérer des paire d&amp;rsquo;élement. Quelque chose de si simple et pourtant absent de Java!&lt;/li&gt;
-&lt;li&gt;Interopérable avec Java (là où Swift l&amp;rsquo;est avec C pour faire un parallèle)&lt;/li&gt;
-&lt;li&gt;La gestion des exceptions se fait comme en Java&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;et-android-dans-tous-ca&#34;&gt;Et Android dans tous ca?&lt;/h3&gt;
-
-&lt;p&gt;Une extension Kotlin peut être ajoutée dans un projet Android.
-Cette extension propose quelques fonctionnalités utiles comme:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;celle de se passer du &lt;code&gt;findViewById&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;permettre la programmation réactive: les composants peuvent interagir sans se bloquer les uns les autres&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Malheureusement la démo préparée par Arnaud a partiellement planté,
-mais bon l&amp;rsquo;idée, le code et l&amp;rsquo;explication étaient tous là ;-)&lt;/p&gt;
-
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;J&amp;rsquo;ai choisi cette session plus pour l&amp;rsquo;aspect Kotlin que pour le coté Android du sujet et je n&amp;rsquo;ai pas été déçu.&lt;/p&gt;
-
-&lt;p&gt;C&amp;rsquo;est une parfaite introduction au language, les exemples de code sont clair et le discours aussi.&lt;/p&gt;
-
-&lt;p&gt;Désormais si l&amp;rsquo;on me demande la techno pour un dev Android,
-Kotlin sera une alternative que j&amp;rsquo;étudierai sérieusement.&lt;/p&gt;
-
-&lt;p&gt;Les slides: &lt;a href=&#34;https://speakerdeck.com/agiuliani/making-android-reactive-app-with-kotlin&#34;&gt;https://speakerdeck.com/agiuliani/making-android-reactive-app-with-kotlin&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Le speaker: &lt;a href=&#34;https://twitter.com/arnogiu&#34;&gt;@arnogiu&lt;/a&gt; sur Twitter&lt;/p&gt;
-</description>
+      <description>Présentation Cette première présentation de la journée est une présentation technique.
+Arnaud G. nous présente le language Kotlin comme une alternative tout à fait viable pour le développement d&amp;rsquo;applications Android.
+Kotlin v1.0 est marqué &amp;ldquo;Production Ready&amp;rdquo; par son éditeur JetBrains.
+Il requiert au minimum Java 6 pour le faire tourner. Soit dit en passant, aujourd&amp;rsquo;hui, QUI aurait l&amp;rsquo;idée de se lancer dans un nouveau développement sans utiliser la dernière version de Java disponible?</description>
     </item>
     
     <item>
@@ -252,60 +49,10 @@ Kotlin sera une alternative que j&amp;rsquo;étudierai sérieusement.&lt;/p&gt;
       <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jzanon.github.io/gloseDeDev/2016/11/11/devfest-toulouse-2016---retour-global/</guid>
-      <description>
-
-&lt;p&gt;Docdoku était sponsor du 1er DevFest Toulouse qui a eu lieu le 3 Novembre 2016 dans les locaux de l&amp;rsquo;IUT de Blagnac.
-Retour sur une journée intensive pour les artisans du code.&lt;/p&gt;
-
-&lt;p&gt;Pas moins de 3 tracks en parallèles dont les thèmes principaux sont:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Mobile,&lt;/li&gt;
-&lt;li&gt;Web,&lt;/li&gt;
-&lt;li&gt;Outils et méthodes&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Autant dire que ca &amp;ldquo;ratisse&amp;rdquo; large.&lt;/p&gt;
-
-&lt;p&gt;Nous n’avons évidemment pas pu tout voir, nous étions pourtant 4 développeurs Docdoku dont 1 speakeuse: &amp;ldquo;Elisabel Généreux&amp;rdquo;.
-Nous n&amp;rsquo;étions pas là pour s&amp;rsquo;asseoir au stand sponsor en attendant que les participants viennent nous voir.
-C&amp;rsquo;est au coeur de la foule, au contact chaleureux des participants et bien sûr dans les conférences que nous avons profité de l&amp;rsquo;évennement!&lt;/p&gt;
-
-&lt;h1 id=&#34;la-keynote-d-ouverture&#34;&gt;La Keynote d&amp;rsquo;ouverture&lt;/h1&gt;
-
-&lt;p&gt;Alex Danvy de chez Microsoft, nous a présenté une vision de l&amp;rsquo;Histoire du métier de développeur ainsi que sa définition.&lt;/p&gt;
-
-&lt;p&gt;Il a très bien mis en avant la complexité de notre métier qui de nos jours est le pivot de nombreux autres métiers.
-Pour cela le développeur doit avoir de nombreuses capacités dépassant le cadre de la simple technique.&lt;/p&gt;
-
-&lt;p&gt;Par exemple celle de s&amp;rsquo;ouvrir aux autres personnes et corps de métier afin de leurs permettre de travailler ensemble.&lt;/p&gt;
-
-&lt;p&gt;Il y a 2 éléments qui m&amp;rsquo;ont particulièrement marqué lors de cette Keynote:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Le triste constat de sous-représentation des femmes dans le métier, chose qui n&amp;rsquo;a pas toujours été vraie.
-D&amp;rsquo;ailleurs moins de 15 filles étaient présentes dans la salle sur les 300 participants.&lt;/li&gt;
-&lt;li&gt;Parfois les nouvelles technologies que l&amp;rsquo;on adopte ultra-rapidement &amp;ldquo;en mode Hipster&amp;rdquo;,
-sont des erreurs qui ont pourtant été déjà commises par le passé.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&#34;les-sessions&#34;&gt;Les sessions&lt;/h1&gt;
-
-&lt;p&gt;Je les présenterai dans des posts séparés.&lt;/p&gt;
-
-&lt;h1 id=&#34;l-organisation&#34;&gt;L&amp;rsquo;organisation&lt;/h1&gt;
-
-&lt;p&gt;Les locaux: Les amphi-théatres de l&amp;rsquo;IUT Blagnac sont au top mais on était un peu serré durant les inter-sessions.
-C&amp;rsquo;etait un peu limitant pour aller au contact des gens.&lt;/p&gt;
-
-&lt;p&gt;Les organisateurs: Disponibles, agréables&amp;hellip; Bon j&amp;rsquo;en connaissais déjà 2 ;-)&lt;/p&gt;
-
-&lt;p&gt;Les Repas / Boissons: Excellent &amp;amp;&amp;amp; En quantité suffisante!&lt;/p&gt;
-
-&lt;h1 id=&#34;pour-finir&#34;&gt;Pour finir&lt;/h1&gt;
-
-&lt;p&gt;1er VRAI évènement adressé aux développeurs Toulousains, j&amp;rsquo;espère vraiment qu&amp;rsquo;il y aura une session 2017!&lt;/p&gt;
-</description>
+      <description>Docdoku était sponsor du 1er DevFest Toulouse qui a eu lieu le 3 Novembre 2016 dans les locaux de l&amp;rsquo;IUT de Blagnac. Retour sur une journée intensive pour les artisans du code.
+Pas moins de 3 tracks en parallèles dont les thèmes principaux sont:
+ Mobile, Web, Outils et méthodes  Autant dire que ca &amp;ldquo;ratisse&amp;rdquo; large.
+Nous n’avons évidemment pas pu tout voir, nous étions pourtant 4 développeurs Docdoku dont 1 speakeuse: &amp;ldquo;Elisabel Généreux&amp;rdquo;.</description>
     </item>
     
     <item>
@@ -314,28 +61,11 @@ C&amp;rsquo;etait un peu limitant pour aller au contact des gens.&lt;/p&gt;
       <pubDate>Thu, 10 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jzanon.github.io/gloseDeDev/about/</guid>
-      <description>
-
-&lt;h2 id=&#34;le-background&#34;&gt;Le background&lt;/h2&gt;
-
-&lt;p&gt;Je vous renvoie à mon premier billet pour ca.&lt;/p&gt;
-
-&lt;h2 id=&#34;la-technique&#34;&gt;La technique&lt;/h2&gt;
-
-&lt;p&gt;Ce site est propulsé par &lt;a href=&#34;https://pages.github.com/&#34;&gt;GitHub Pages&lt;/a&gt; qui permet la mise à disposition simplifiée de sites statiques.&lt;/p&gt;
-
-&lt;p&gt;La construction du site est réalisée avec le moteur &lt;a href=&#34;http://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Le thème est &amp;lsquo;Hugo Future Imperfect&amp;rsquo;.&lt;/p&gt;
-
-&lt;h2 id=&#34;l-auteur&#34;&gt;L&amp;rsquo;auteur&lt;/h2&gt;
-
-&lt;p&gt;Moi-même donc: Julien ZANON, développeur Java / Java EE ayant déjà fait un bout de chemin sur la voie de la séniorité.&lt;/p&gt;
-
-&lt;p&gt;Pour plus d&amp;rsquo;informations, on me trouve assez facilement par les moteurs de recherche usuels.&lt;/p&gt;
-
-&lt;p&gt;Merci pour votre lecture!&lt;/p&gt;
-</description>
+      <description>Le background Je vous renvoie à mon premier billet pour ca.
+La technique Ce site est propulsé par GitHub Pages qui permet la mise à disposition simplifiée de sites statiques.
+La construction du site est réalisée avec le moteur Hugo.
+Le thème est &amp;lsquo;Hugo Future Imperfect&amp;rsquo;.
+L&amp;rsquo;auteur Moi-même donc: Julien ZANON, développeur Java / Java EE ayant déjà fait un bout de chemin sur la voie de la séniorité.</description>
     </item>
     
     <item>
@@ -344,20 +74,8 @@ C&amp;rsquo;etait un peu limitant pour aller au contact des gens.&lt;/p&gt;
       <pubDate>Thu, 10 Nov 2016 00:00:00 +0000</pubDate>
       
       <guid>https://jzanon.github.io/gloseDeDev/2016/11/10/blog-init--push/</guid>
-      <description>&lt;p&gt;L&amp;rsquo;idée d&amp;rsquo;un blog me taraude depuis longtemps: plein d&amp;rsquo;idées, de réactions positives ou négatives&amp;hellip;
-Une envie de partage au travers d&amp;rsquo;un outil qu&amp;rsquo;on utilise tous les jours en tant que développeur: Internet.&lt;/p&gt;
-
-&lt;p&gt;Mais lorsqu&amp;rsquo;on se pose devant l&amp;rsquo;ordinateur, les choses se compliquent avec ce terrible
-&lt;a href=&#34;https://fr.wikipedia.org/wiki/Syndrome_de_l%27imposteur&#34;&gt;Syndrome de l&amp;rsquo;imposteur&lt;/a&gt; qui nous prend.
-Après des mois de tergiversations, je l&amp;rsquo;ai fait:
-j&amp;rsquo;écris ce premier billet tout en préparant un retour sur le premier évènement de grande ampleur
-adressé aux développeurs sur le bassin toulousain: le DevFest Toulouse.&lt;/p&gt;
-
-&lt;p&gt;Par ailleurs il va falloir s&amp;rsquo;attendre à du troll, des anglicismes, des pointeurs vers d&amp;rsquo;autres blogs que je trouve intéressants,
- du troll (oui je me répète aussi parfois)&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Maintenant que c&amp;rsquo;est dit: je vais chercher comment propulser ce premier billet!&lt;/p&gt;
-</description>
+      <description>L&amp;rsquo;idée d&amp;rsquo;un blog me taraude depuis longtemps: plein d&amp;rsquo;idées, de réactions positives ou négatives&amp;hellip; Une envie de partage au travers d&amp;rsquo;un outil qu&amp;rsquo;on utilise tous les jours en tant que développeur: Internet.
+Mais lorsqu&amp;rsquo;on se pose devant l&amp;rsquo;ordinateur, les choses se compliquent avec ce terrible Syndrome de l&amp;rsquo;imposteur qui nous prend. Après des mois de tergiversations, je l&amp;rsquo;ai fait: j&amp;rsquo;écris ce premier billet tout en préparant un retour sur le premier évènement de grande ampleur adressé aux développeurs sur le bassin toulousain: le DevFest Toulouse.</description>
     </item>
     
   </channel>

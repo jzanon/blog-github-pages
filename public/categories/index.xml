@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Glose de dev</title>
+    <link>https://jzanon.github.io/gloseDeDev/categories/</link>
+    <description>Recent content in Categories on Glose de dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 15 Nov 2016 13:22:11 +0100</lastBuildDate>
+    
+	<atom:link href="https://jzanon.github.io/gloseDeDev/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android</title>
+      <link>https://jzanon.github.io/gloseDeDev/categories/android/</link>
+      <pubDate>Tue, 15 Nov 2016 13:22:11 +0100</pubDate>
+      
+      <guid>https://jzanon.github.io/gloseDeDev/categories/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Conférence</title>
+      <link>https://jzanon.github.io/gloseDeDev/categories/conf%C3%A9rence/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzanon.github.io/gloseDeDev/categories/conf%C3%A9rence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dev</title>
+      <link>https://jzanon.github.io/gloseDeDev/categories/dev/</link>
+      <pubDate>Sun, 05 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzanon.github.io/gloseDeDev/categories/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DevOps</title>
+      <link>https://jzanon.github.io/gloseDeDev/categories/devops/</link>
+      <pubDate>Tue, 06 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzanon.github.io/gloseDeDev/categories/devops/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Divers</title>
+      <link>https://jzanon.github.io/gloseDeDev/categories/divers/</link>
+      <pubDate>Fri, 11 Nov 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://jzanon.github.io/gloseDeDev/categories/divers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kotlin</title>
+      <link>https://jzanon.github.io/gloseDeDev/categories/kotlin/</link>
+      <pubDate>Tue, 15 Nov 2016 13:22:11 +0100</pubDate>
+      
+      <guid>https://jzanon.github.io/gloseDeDev/categories/kotlin/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

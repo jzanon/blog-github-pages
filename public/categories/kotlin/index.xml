@@ -7,7 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Tue, 15 Nov 2016 13:22:11 +0100</lastBuildDate>
-    <atom:link href="https://jzanon.github.io/gloseDeDev/categories/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://jzanon.github.io/gloseDeDev/categories/kotlin/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>DevFest Toulouse 2016 - Kotlin for Android</title>
@@ -15,83 +17,10 @@
       <pubDate>Tue, 15 Nov 2016 13:22:11 +0100</pubDate>
       
       <guid>https://jzanon.github.io/gloseDeDev/2016/11/15/devfest-toulouse-2016---kotlin-for-android/</guid>
-      <description>
-
-&lt;h2 id=&#34;présentation&#34;&gt;Présentation&lt;/h2&gt;
-
-&lt;p&gt;Cette première présentation de la journée est une présentation technique.&lt;/p&gt;
-
-&lt;p&gt;Arnaud G. nous présente le language Kotlin comme une alternative tout à fait viable pour le développement d&amp;rsquo;applications Android.&lt;/p&gt;
-
-&lt;p&gt;Kotlin v1.0 est marqué &amp;ldquo;Production Ready&amp;rdquo; par son éditeur JetBrains.&lt;/p&gt;
-
-&lt;p&gt;Il requiert au minimum Java 6 pour le faire tourner.
-Soit dit en passant, aujourd&amp;rsquo;hui, QUI aurait l&amp;rsquo;idée de se lancer dans un nouveau développement sans utiliser la dernière version de Java disponible?!&lt;/p&gt;
-
-&lt;p&gt;Après une rapide présentation de quelques fonctionnalités du language, Arnaud avance l&amp;rsquo;argument qui à mon sens,
-est primordial dans le choix de l&amp;rsquo;utilisation d&amp;rsquo;un nouveau language: la forte diminution du &amp;ldquo;boiler code&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;En effet, Java traîne comme un boulet 20 ans de rétro-compatibilité et concessions:
-difficile de changer les choses vu les intérêts divergeant des forces en présence.&lt;/p&gt;
-
-&lt;h2 id=&#34;en-vrac&#34;&gt;En vrac&lt;/h2&gt;
-
-&lt;p&gt;La trame de la présentation était bien construite, voici quelques unes de mes notes:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Kotlin est intégré de base avec Gradle.&lt;/li&gt;
-&lt;li&gt;Une fonctionnalité sympa dans IntelliJ: &amp;ldquo;Convert Java File to Kotlin&amp;rdquo;.
-Pas uniquement pour migrer de l&amp;rsquo;existant mais aussi pour découvrir le language: une façon d&amp;rsquo;apprendre.&lt;/li&gt;
-&lt;li&gt;Mot-clé : &lt;code&gt;val&lt;/code&gt; / &lt;code&gt;var&lt;/code&gt;  pour la déclaration de valeur/variable.
-On retrouve de plus en plus ce concept dans les languages. Encore une fois, Java est à la traîne.&lt;/li&gt;
-&lt;li&gt;Null safety: utilisation de &amp;lsquo;?&amp;rsquo; et &amp;lsquo;!!&amp;rsquo;:
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;?&lt;/code&gt; semblable aux Optional de Java 8&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;!!&lt;/code&gt; jettera une exception NPE si une variable est &lt;code&gt;null&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;Les variables doivent avoir des valeurs par défaut.
-L&amp;rsquo;utilisation de &lt;code&gt;lateinit&lt;/code&gt; permet d&amp;rsquo;indiquer au compilateur que l&amp;rsquo;initialisation de la variable est différé.
-Sans cela le code ne compilera même pas!&lt;/li&gt;
-&lt;li&gt;L&amp;rsquo;écriture de l&amp;rsquo;équivalent &amp;ldquo;POJO + Getter + Setter + hashcode + Constructor + &amp;hellip;&amp;rdquo; est EXTREMEMENT réduite&lt;/li&gt;
-&lt;li&gt;Le concept Java de &lt;code&gt;static&lt;/code&gt; n&amp;rsquo;existe plus mais une sorte d&amp;rsquo;équivalent &lt;code&gt;companion&lt;/code&gt;est proposé
-(ce sujet mérite d&amp;rsquo;être approfondi&amp;hellip;)&lt;/li&gt;
-&lt;li&gt;Utilisation des paramètres nommés (et leur ordre n&amp;rsquo;est pas fixé!)&lt;/li&gt;
-&lt;li&gt;Mot-clé &lt;code&gt;when&lt;/code&gt; qui permet de se passer de &lt;code&gt;if&lt;/code&gt; et &lt;code&gt;switch&lt;/code&gt; qu&amp;rsquo;on connaît en Java.
-Il offre en plus la possibilité de faire du parttern matching.&lt;/li&gt;
-&lt;li&gt;La déclaration d&amp;rsquo;une fonction ne nécessite pas forcément l&amp;rsquo;encapsulation de celle-ci dans une classe&lt;/li&gt;
-&lt;li&gt;Niveau lambda expression on est proche de ce que propose Java 8&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Pair&lt;/code&gt; pour gérer des paire d&amp;rsquo;élement. Quelque chose de si simple et pourtant absent de Java!&lt;/li&gt;
-&lt;li&gt;Interopérable avec Java (là où Swift l&amp;rsquo;est avec C pour faire un parallèle)&lt;/li&gt;
-&lt;li&gt;La gestion des exceptions se fait comme en Java&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;et-android-dans-tous-ca&#34;&gt;Et Android dans tous ca?&lt;/h3&gt;
-
-&lt;p&gt;Une extension Kotlin peut être ajoutée dans un projet Android.
-Cette extension propose quelques fonctionnalités utiles comme:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;celle de se passer du &lt;code&gt;findViewById&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;permettre la programmation réactive: les composants peuvent interagir sans se bloquer les uns les autres&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Malheureusement la démo préparée par Arnaud a partiellement planté,
-mais bon l&amp;rsquo;idée, le code et l&amp;rsquo;explication étaient tous là ;-)&lt;/p&gt;
-
-&lt;h3 id=&#34;conclusion&#34;&gt;Conclusion&lt;/h3&gt;
-
-&lt;p&gt;J&amp;rsquo;ai choisi cette session plus pour l&amp;rsquo;aspect Kotlin que pour le coté Android du sujet et je n&amp;rsquo;ai pas été déçu.&lt;/p&gt;
-
-&lt;p&gt;C&amp;rsquo;est une parfaite introduction au language, les exemples de code sont clair et le discours aussi.&lt;/p&gt;
-
-&lt;p&gt;Désormais si l&amp;rsquo;on me demande la techno pour un dev Android,
-Kotlin sera une alternative que j&amp;rsquo;étudierai sérieusement.&lt;/p&gt;
-
-&lt;p&gt;Les slides: &lt;a href=&#34;https://speakerdeck.com/agiuliani/making-android-reactive-app-with-kotlin&#34;&gt;https://speakerdeck.com/agiuliani/making-android-reactive-app-with-kotlin&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Le speaker: &lt;a href=&#34;https://twitter.com/arnogiu&#34;&gt;@arnogiu&lt;/a&gt; sur Twitter&lt;/p&gt;
-</description>
+      <description>Présentation Cette première présentation de la journée est une présentation technique.
+Arnaud G. nous présente le language Kotlin comme une alternative tout à fait viable pour le développement d&amp;rsquo;applications Android.
+Kotlin v1.0 est marqué &amp;ldquo;Production Ready&amp;rdquo; par son éditeur JetBrains.
+Il requiert au minimum Java 6 pour le faire tourner. Soit dit en passant, aujourd&amp;rsquo;hui, QUI aurait l&amp;rsquo;idée de se lancer dans un nouveau développement sans utiliser la dernière version de Java disponible?</description>
     </item>
     
   </channel>

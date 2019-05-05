@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dev on Glose de dev</title>
-    <link>https://jzanon.github.io/gloseDeDev/categories/dev/</link>
-    <description>Recent content in Dev on Glose de dev</description>
+    <title>Conférence on Glose de dev</title>
+    <link>https://jzanon.github.io/gloseDeDev/categories/conf%C3%A9rence/</link>
+    <description>Recent content in Conférence on Glose de dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
     <lastBuildDate>Sun, 05 May 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://jzanon.github.io/gloseDeDev/categories/dev/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://jzanon.github.io/gloseDeDev/categories/conf%C3%A9rence/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,18 +19,6 @@
       <guid>https://jzanon.github.io/gloseDeDev/2019/05/05/devoxx-france-2019/</guid>
       <description>2 ans et demi plus tard je publie enfin un nouveau post sur mon blog poussiéreux.
 Afin de le représenter, le Toulouse JUG m&amp;rsquo;a offert une place cette année à Devoxx France. J&amp;rsquo;ai donc pu participer pour la première fois à ce super évènement et vous propose un petit retour basé sur ce que j&amp;rsquo;ai pu voir. Je ne parlerai ici que des conférences et pas des rencontres, de l&amp;rsquo;ambiance, des BoF&amp;hellip; Il y a énormément de conférences en parallèle, toutes filmées donc l&amp;rsquo;idée est juste de vous aider à mieux choisir vos vidéos une fois qu&amp;rsquo;elles seront disponibles sur Youtube.</description>
-    </item>
-    
-    <item>
-      <title>DevFest Toulouse 2016 - Kotlin for Android</title>
-      <link>https://jzanon.github.io/gloseDeDev/2016/11/15/devfest-toulouse-2016---kotlin-for-android/</link>
-      <pubDate>Tue, 15 Nov 2016 13:22:11 +0100</pubDate>
-      
-      <guid>https://jzanon.github.io/gloseDeDev/2016/11/15/devfest-toulouse-2016---kotlin-for-android/</guid>
-      <description>Présentation Cette première présentation de la journée est une présentation technique.
-Arnaud G. nous présente le language Kotlin comme une alternative tout à fait viable pour le développement d&amp;rsquo;applications Android.
-Kotlin v1.0 est marqué &amp;ldquo;Production Ready&amp;rdquo; par son éditeur JetBrains.
-Il requiert au minimum Java 6 pour le faire tourner. Soit dit en passant, aujourd&amp;rsquo;hui, QUI aurait l&amp;rsquo;idée de se lancer dans un nouveau développement sans utiliser la dernière version de Java disponible?</description>
     </item>
     
   </channel>
