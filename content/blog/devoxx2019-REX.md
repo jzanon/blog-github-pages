@@ -56,8 +56,10 @@ Lien cfp : https://cfp.devoxx.fr/2019/talk/OXO-1187/Java_keeps_throttling_up!
 
 ## Conf: Junit, il serait temps de passer la 5ème
 
-Présentée à 2 sous la forme d'une discussion technique que l'on pourrait tout naturellement avoir lors d'une session de pair programming,
-cette session nous a montré la migration de tests JUnit 4 vers JUnit 5. Bien calibrée (même si le ton était souvent un peu forcé), très pédagogique, **j'ai beaucoup aimé!**
+Cette session était présentée par [Juliette de Rancourt](https://twitter.com/ju_derancourt) et [Julien Topçu](https://twitter.com/julientopcu).
+Sous la forme d'une discussion technique que l'on pourrait tout naturellement avoir lors d'une session de pair programming,
+cette session nous a montré la migration de tests JUnit 4 vers JUnit 5. 
+Bien calibrée (même si le ton était souvent un peu forcé), très pédagogique, **j'ai beaucoup aimé!**
 
 Lien cfp : https://cfp.devoxx.fr/2019/talk/TPC-2275/JUnit_:_il_serait_temps_de_passer_la_5eme_!
 
@@ -65,7 +67,7 @@ Lien cfp : https://cfp.devoxx.fr/2019/talk/TPC-2275/JUnit_:_il_serait_temps_de_p
 ## Conf: Les multiples facettes du logging dans un container Docker
 
 J'avoue cette conf à 18H30, je n'avais pas prévu de la voir. Mais j'étais fatigué et déjà sur place dans les fauteuils confortables de l'amphi principal...
-Mais Nicolas Fränkel a su capter mon attention avec plein de petites démos toutes simples (simples parce qu'il avait bien préparé ses images Docker ;-)).
+Mais [Nicolas Fränkel](https://twitter.com/nicolas_frankel) a su capter mon attention avec plein de petites démos toutes simples (simples parce qu'il avait bien préparé ses images Docker ;-)).
 Le point que j'ai noté qui me conforte dans mon idée: aucun système complexe ne devrait tourner en prod sans agrégation des logs dans un système dédié.
 
 Lien cfp : https://cfp.devoxx.fr/2019/talk/VUH-8553/Les_multiples_facettes_du_logging_dans_un_container_Docker
@@ -73,7 +75,7 @@ Lien cfp : https://cfp.devoxx.fr/2019/talk/VUH-8553/Les_multiples_facettes_du_lo
 
 ## Conf: SpringBoot avec Kotlin, Kofu et les coroutines
 
-Sébastien DELEUZE nous a fait une conf pleine de code & de démo. J'ai réussi à suivre mais j'avoue avoir été à la limite du décrochage.
+[Sébastien Deleuze](https://twitter.com/sdeleuze) nous a fait une conf pleine de code & de démo. J'ai réussi à suivre mais j'avoue avoir été à la limite du décrochage.
 Ne vous y trompez pas: c'était bien, intéressant, mais je pense qu'il aurait fallu prendre plus de temps pour cette conf. Dommage.
 
 Lien cfp : https://cfp.devoxx.fr/2019/talk/CWE-1971/Spring_Boot_avec_Kotlin,_Kofu_et_les_Coroutines
@@ -94,7 +96,7 @@ Lien cfp : https://cfp.devoxx.fr/2019/talk/NQH-8951/The_Boring_Architecture,_ou_
 
 ## Conf: Ask The Java Architect
 
-Mark Reinhold nous a offert un moment de détente très agréable: une séance de questions libres...
+[Mark Reinhold](https://twitter.com/mreinhold) nous a offert un moment de détente très agréable: une séance de questions libres...
 Il nous a par exemple confié que s'il y avait une chose dans la rétro-compatibilité de Java qu'il devait "casser" c'est bien la Serialization.
 Bien que les `checked exceptions` soient elles aussi en bonne position!
 
@@ -105,7 +107,7 @@ Lien cfp : https://cfp.devoxx.fr/2019/talk/GNN-3371/Ask_the_Java_Architect
 J'ai entendu quelqu'un dire que cette conf résonnait comme "le cri d'agonie d'un archi qui essaye de sauver son poste car il se retrouve dépassé par les agilistes".
 Alors NON: Je ne suis pas d'accord du tout. J'espère que c'est le seul à avoir eu ce ressenti car cette conf m'a parlé... Vraiment! 
 Peut-être fais-je déjà partie des "vieux" architectes et suis-je comme lui? Je ne le crois pas. 
-Je me défini depuis quelques années comme "senior developer" et comme le dit Rémi COCULA, parfois on se *sent architecte*.
+Je me défini depuis quelques années comme "senior developer" et comme le dit Rémi Cocula, parfois on se *sent architecte*.
 Je trouve qu'il a bien saisi cette "crise d'identité" des architectes débutée dans les années 2010 qui a terni ce titre.
 Pourtant il insiste sur la nécessité de l'architecte, pas dans son ancienne forme imposant la vérité mais dans l'échange avec les équipe et le travail aidant à faire émerger l'architecture de l'équipe, sans l'imposer.
 Bref, bon speaker & très bonne conf.
@@ -115,7 +117,7 @@ Lien cfp : https://cfp.devoxx.fr/2019/talk/SQO-0767/D%E2%80%99architecte_a_Metar
 
 ## Tools-in-action: Construire son JDK en 10 étapes
 
-Un peu déçu par cette session de José Paumard: il n'y a rien eu de "in-action".
+Un peu déçu par cette session de [José Paumard](https://twitter.com/josepaumard): il n'y a rien eu de "in-action".
 Ce manque de démo peut s'expliquer par le fait que la compilation du JDK prend énormément de temps et surtout que les différentes étapes n'ont rien d'extraordinaire.
 Ce qu'il faut retenir c'est que quand il fallait près de 6 mois pour packager un JDK on fait maintenant ça en quelques heures.
 Cette amélioration du processus de build a permis la mise en place d'une chaîne d'Intégration Continue mettant les derniers builds à disposition de la communauté 
@@ -145,6 +147,7 @@ Lien cfp : https://cfp.devoxx.fr/2019/talk/JYD-8305/la_boite_a_outils_Chaos_Engi
 
 Quelques conférences que j'ai apprécié sans prendre de notes particulières, mais je les recommande:
 
-- University: Quarkus: Pourquoi & Comment faire une appli Java Cloud Native avec Graal VM (https://cfp.devoxx.fr/2019/talk/GSE-9991/Quarkus:_Pourquoi_&_Comment_faire_une_appli_Java_Cloud_Native_avec_Graal_VM)
 - Conf: Observabilité : mythes, réalité et Chaos (https://cfp.devoxx.fr/2019/talk/JNL-9407/Observabilite_:_mythes,_realite_et_Chaos)
+- University: Quarkus: Pourquoi & Comment faire une appli Java Cloud Native avec Graal VM (https://cfp.devoxx.fr/2019/talk/GSE-9991/Quarkus:_Pourquoi_&_Comment_faire_une_appli_Java_Cloud_Native_avec_Graal_VM)
 
+En bonus: un épisode des CastCodeurs pour en savoir plus sur Quarkus: https://lescastcodeurs.com/2019/03/26/lcc-207-interview-sur-quarkus-avec-emmanuel-bernard/
